@@ -10,6 +10,15 @@ body {
     font-family: 'Lato';
 }
 
+/*......................................header nav */
+.crazy-color {
+    background: #AEB4AA;
+}
+
+.continent-color {
+    color: #AEB4AA;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
