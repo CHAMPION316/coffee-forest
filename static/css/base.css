@@ -21,14 +21,16 @@ body {
 }
 
 /* from Bulma */
-.icon {
+/*...............I won't be needing this since I am not using font-awesome */
+/* .icon {
     align-items: center;
     display: inline-flex;
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
-}
+} */
 
+/*.....................................Capatalize logo lettering */
 .logo-font {
     text-transform: uppercase;
 }
