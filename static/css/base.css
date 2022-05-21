@@ -16,7 +16,8 @@ body {
 }
 
 .continent-color {
-    color: #AEB4AA;
+    -webkit-text-stroke: 0.5px white;
+    color: #BFA784;
 }
 
 /* from Bulma */
@@ -53,7 +54,7 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: #BFA784;
     color: white;
 }
 
