@@ -68,6 +68,16 @@ body {
     border: 1px solid black !important;
 }
 
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #a38263;
+    z-index: -1;
+}
+
 .cafe-color {
     background: #A38263 !important;
 }
