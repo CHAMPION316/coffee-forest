@@ -17,10 +17,10 @@
                 South America
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="america-link">
-                <a href="" class="dropdown-item">Brazil</a>
-                <a href="" class="dropdown-item">Colombia</a>
-                <a href="" class="dropdown-item">Venezuela</a>
-                <a href="" class="dropdown-item">All South America</a>
+                <a href="{% url 'products' %}?category=brazil" class="dropdown-item">Brazil</a>
+                <a href="{% url 'products' %}?category=colombia" class="dropdown-item">Colombia</a>
+                <a href="{% url 'products' %}?category=venezuela" class="dropdown-item">Venezuela</a>
+                <a href="{% url 'products' %}?category=brazil,colombia,venezuela" class="dropdown-item">All South America</a>
             </div>
         </li>
 
