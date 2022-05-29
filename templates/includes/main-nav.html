@@ -29,10 +29,10 @@
                 Africa
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="africa-link">
-                <a href="" class="dropdown-item">Ethiopia</a>
-                <a href="" class="dropdown-item">Kenya</a>
-                <a href="" class="dropdown-item">Uganda</a>
-                <a href="" class="dropdown-item">All Africa</a>
+                <a href="{% url 'products' %}?category=ethiopia" class="dropdown-item">Ethiopia</a>
+                <a href="{% url 'products' %}?category=kenya" class="dropdown-item">Kenya</a>
+                <a href="{% url 'products' %}?category=uganda" class="dropdown-item">Uganda</a>
+                <a href="{% url 'products' %}?category=ethiopia,kenya,uganda" class="dropdown-item">All Africa</a>
             </div>
         </li>
 
