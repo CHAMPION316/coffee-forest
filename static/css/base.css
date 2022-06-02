@@ -78,10 +78,10 @@ body {
     z-index: -1;
 }
 
-/* a.category-badge > span.badge:hover {
-    background: #212529 !important;
-    color: #fff !important;
-} */
+a.category-badge > span.badge:hover {
+    background: black !important;
+    color: #a38263 !important;
+}
 
 .cafe-color {
     background: #A38263 !important;
