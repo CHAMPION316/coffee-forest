@@ -45,6 +45,7 @@ body {
     min-width: 260px;
 }
 
+/*..........................................add to bag button */
 .btn-black {
     background: black;
     color: white;
@@ -80,6 +81,7 @@ body {
     border: 1px solid black !important;
 }
 
+/*.......................................overlay color for some pages*/
 .overlay {
     height: 100%;
     width: 100%;
@@ -135,7 +137,7 @@ a.category-badge > span.badge:hover {
     }
 }
 
-/* add padding to the top a bit when navbar is collapsed on mobile */
+/*......................add padding to the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
