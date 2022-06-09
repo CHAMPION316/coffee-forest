@@ -22,3 +22,12 @@ Create a website so that the user can search through various products of coffees
 ### 1.2 UX
 
 I decided to go with the color palette found on this image [COLORS](docs/img/color_palette.jpg) which was generated using [coolors](https://coolors.co/). This was possible using the home page image that I found on [pexels](https://www.pexels.com/photo/assorted-decors-with-brown-rack-inside-store-683039/). From there I based the rest of the page on these 5 colors. 
+
+### 1.3 User Stories 
+
+- As a user, I expect to navigate the website with ease of use.
+- As a user, I expect to find products as seamless as possible.
+- As a user, I expect to put the products I want in a basket. 
+- As a user, I expect to type in keywords in the search bar to find specific products. 
+- As a user, I expect to checkout after finding all the products I need.
+- As a user, I expect have a login system in order to view my shopping history. 
