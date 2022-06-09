@@ -18,3 +18,7 @@ Coffee Forest is a fictional website that sales expensive coffee from all over t
 ### 1.1 Project Goals 
 
 Create a website so that the user can search through various products of coffees and place an order for them. Have a shopping cart that allows the user to add their items to with the current total price. A login system for the user that will show their shopping history. 
+
+### 1.2 UX
+
+I decided to go with the color palette found on this image [COLORS](docs/img/color_palette.jpg) which was generated using [coolors](https://coolors.co/). This was possible using the home page image that I found on [pexels](https://www.pexels.com/photo/assorted-decors-with-brown-rack-inside-store-683039/). From there I based the rest of the page on these 5 colors. 
