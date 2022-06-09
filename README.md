@@ -31,3 +31,15 @@ I decided to go with the color palette found on this image [COLORS](docs/img/col
 - As a user, I expect to type in keywords in the search bar to find specific products. 
 - As a user, I expect to checkout after finding all the products I need.
 - As a user, I expect have a login system in order to view my shopping history. 
+
+### 1.4 Wireframes
+
+I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
+
+
+|    Mobile   |
+|    :----:   |
+|[Home Page](docs/img/main_page_mobile.png)|
+|[Drop Down](docs/img/dropdown_menu_mobile.png)|
+|[Products Page](docs/img/products_page_mobile.png)|
+
