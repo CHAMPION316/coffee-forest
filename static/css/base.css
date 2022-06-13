@@ -5,14 +5,14 @@ html {
 body {
     background: url('/media/pexels-afta-putta-gunawan-683039.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: calc(80vh - 164px);
     color: #555;
     font-family: 'Lato';
 }
 
 /*......................................header nav */
 .crazy-color {
-    background: #AEB4AA;
+    background: #c1d1c1;
 }
 
 .continent-color {
@@ -88,7 +88,7 @@ body {
     top: 0;
     left: 0;
     position: fixed;
-    background: #AEB4AA;
+    background: #b5c1b4;
     z-index: -1;
 }
 
