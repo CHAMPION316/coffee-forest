@@ -20,6 +20,11 @@ body {
     color: #BFA784;
 }
 
+.crazy-color-text {
+    -webkit-text-stroke: 0.5px white;
+    color: #c1d1c1;
+}
+
 /* from Bulma */
 /*...............I won't be needing this since I am not using font-awesome */
 /* .icon {
@@ -69,8 +74,8 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #BFA784;
-    color: white;
+    background: #c1d1c1;
+    color: black;
 }
 
 .text-black {
