@@ -8,6 +8,7 @@ A coffee website where you can order luxury coffee from all over South America a
 - [Mission Statement](#mission-statement)
 - [Target Audience](#target-audience)
 - [Stakeholder Interviews](#stakeholder-interviews)
+- [Marketing](#marketing)
 - [Testing](#4-testing)
 - [Improvements](#5-improvements)
 - [Deployment](#6-deployment)
@@ -142,6 +143,22 @@ The outcome is calculated by combining the scores from the *Importance* and *Fea
 | 16 | 5 | 5 | 10 |
 | 17 | 5 | 5 | 10 |
 | 18 | 5 | 5 | 10 |
+
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Marketing
+
+At the time of this writing social media pages will be created in order to push the marketing of the website. 
+These social platforms include: 
+* **Twitter**
+* **Facebook**
+* **Instagram**
+
 
 
 ### 1.2 UX
