@@ -159,6 +159,26 @@ These social platforms include:
 * **Facebook**
 * **Instagram**
 
+# Wireframes
+[Home Page](docs/wireframes/Main_Pages.png)
+
+[Product List](docs/wireframes/Product__Pages.png)
+
+[Single Product](docs/wireframes/Single_Product_Page.png)
+
+[Dropdown List](docs/wireframes/Dropdown_Pages.png)
+
+[Register Page](docs/wireframes/Register_Pages.png)
+
+[Signin Page](docs/wireframes/Signin_page.png)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+
 
 
 ### 1.2 UX
