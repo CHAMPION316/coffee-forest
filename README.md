@@ -9,6 +9,7 @@ A coffee website where you can order luxury coffee from all over South America a
 - [Target Audience](#target-audience)
 - [Stakeholder Interviews](#stakeholder-interviews)
 - [Marketing](#marketing)
+- [Structure](#structure)
 - [Testing](#4-testing)
 - [Improvements](#5-improvements)
 - [Deployment](#6-deployment)
@@ -198,8 +199,15 @@ The final decision was the following.
 
 The colours will be used as described in the table below
 
+| Hex Value | Root variable name |
+| -- | -- |
+| #FFFFFF | white |
+| #C1D1C1 | light-green |
+| #DEE0DD | light-grey |
 
+&nbsp;
 
+# Structure
 
 ### 1.2 UX
 
@@ -214,16 +222,6 @@ I decided to go with the color palette found on this image [COLORS](docs/img/col
 - As a user, I expect to checkout after finding all the products I need.
 - As a user, I expect have a login system in order to view my shopping history. 
 
-### 1.4 Wireframes
-
-I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
-
-
-|    Mobile   |
-|    :----:   |
-|[Home Page](docs/img/main_page_mobile.png)|
-|[Drop Down](docs/img/dropdown_menu_mobile.png)|
-|[Products Page](docs/img/products_page_mobile.png)|
 
 ##  2 Features 
 
