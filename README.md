@@ -2,22 +2,25 @@
 
 A coffee website where you can order luxury coffee from all over South America and Africa. 
 
-## Table of contents
+# Table of contents
 
-- [Background](#1-background)
-- [Technologies used](#3-technologies-used)
+- [Background](#background)
+- [Mission Statement](#mission-statement)
+- [Target Audience](#target-audience)
 - [Testing](#4-testing)
 - [Improvements](#5-improvements)
 - [Deployment](#6-deployment)
 - [Credits](#7-credits)
 
-## 1 Background 
+# Background 
 
-Coffee Forest is a fictional website that sales expensive coffee from all over the continents of South America and Africa. This coffee goes through a (rigorous process) in order to be made. The process of course is fictional 😂 as you will find out in their descriptions but resembles some authenticity to how the real life process is somehwat created. 
+Coffee Forest is a fictional website that sales expensive coffee from all over the continents of South America and Africa. This coffee goes through a (rigorous process) in order to be made. The process of course is fictional 😂 as you will find out in their descriptions but resembles some authenticity to how the real life process is somehwat created. For the sake of fiction people are highly interested in this kind of coffee and how it tastes. 
 
-### 1.1 Project Goals 
+# Mission Statement
 
-Create a website so that the user can search through various products of coffees and place an order for them. Have a shopping cart that allows the user to add their items to with the current total price. A login system for the user that will show their shopping history. 
+To create an e-commerce application that will enable Coffee Forest to increase their customer base for their high-end online business. 
+
+# Target Audience
 
 ### 1.2 UX
 
