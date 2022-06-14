@@ -112,6 +112,37 @@ The items are graded in a 0 - 5 system in both importance and feasibility as per
 
 &nbsp;
 
+The outcome is calculated by combining the scores from the *Importance* and *Feasibility* ratings. This then gives a final strategy rating of what items and where to focus on.
+
+| | Score - 0 | Score - 5 | Score - 10 |
+|--|--|--| -- |
+| Item Description | Not viable | Efforts should be made | Efforts MUST be made
+
+&nbsp;
+
+### Strategy Description
+
+| User story ID | Importance Score | Feasibility Score | Outcome |
+| --------------- | ----------| -----------| ---------- |
+| 1 | 5 | 5 | 10 |
+| 2 | 5 | 5 | 10 |
+| 3 | 5 | 5 | 10 |
+| 4 | 5 | 2 | 7 |
+| 5 | 3 | 3 | 6 |
+| 6 | 5 | 5 | 10 |
+| 7 | 5 | 5 | 10 |
+| 8 | 5 | 5 | 10 |
+| 9 | 5 | 5 | 10 |
+| 10 | 5 | 5 | 10 |
+| 11 | 5 | 5 | 10 |
+| 12 | 5 | 5 | 10 |
+| 13 | 5 | 5 | 10 |
+| 14 | 5 | 5 | 10 |
+| 15 | 5 | 5 | 10 |
+| 16 | 5 | 5 | 10 |
+| 17 | 5 | 5 | 10 |
+| 18 | 5 | 5 | 10 |
+
 
 ### 1.2 UX
 
