@@ -99,7 +99,7 @@ body {
 
 a.category-badge > span.badge:hover {
     background: black !important;
-    color: #a38263 !important;
+    color: #fff !important;
 }
 
 .btt-button {
@@ -114,8 +114,8 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
-.cafe-color {
-    background: #A38263 !important;
+.light-green-color {
+    background: #c1d1c1 !important;
 }
 
 /* -------------------------------- Media Queries */
