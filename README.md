@@ -85,6 +85,34 @@ From the resulting interviews, the user goals have been defined:
 | 17 | Site User | Recover a password if required | Recover access to their account if required
 | 18 | Site User | Have payment information saved | Speed up use for regular customers
 
+&nbsp;
+
+## Requirements and Expectations
+
+| Requirement | Expectation
+| -- | --
+| Visually appealing and well laid out | Colours to be complimentary, text to be clear. Navigation to be logical and simple
+| Responsive design (Mobile first) | The screen size to not affect the look of the application 
+| Secure payment method | Card details to be secure
+| CRUD functionality for products | Easily maintain the store's products
+| Search and filter products | Easily refine the product to the user's needs
+
+&nbsp;
+
+## Strategy
+### Strategy Outline
+The items are graded in a 0 - 5 system in both importance and feasibility as per the grading system below.
+
+&nbsp;
+
+| | Score - 0 | Score - 3 | Score - 5 |
+|--|--|--| -- |
+| Importance | Unwise use of time to address | Efforts should be made to accommodate these | Efforts MUST be made to address these
+| Feasibility | Unwise use of time to address| Efforts should be made to accommodate these | Efforts MUST be made to address these
+
+&nbsp;
+
+
 ### 1.2 UX
 
 I decided to go with the color palette found on this image [COLORS](docs/img/color_palette.jpg) which was generated using [coolors](https://coolors.co/). This was possible using the home page image that I found on [pexels](https://www.pexels.com/photo/assorted-decors-with-brown-rack-inside-store-683039/). From there I based the rest of the page on these 5 colors. 
