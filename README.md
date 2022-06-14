@@ -7,6 +7,7 @@ A coffee website where you can order luxury coffee from all over South America a
 - [Background](#background)
 - [Mission Statement](#mission-statement)
 - [Target Audience](#target-audience)
+- [Stakeholder Interviews](#stakeholder-interviews)
 - [Testing](#4-testing)
 - [Improvements](#5-improvements)
 - [Deployment](#6-deployment)
@@ -21,6 +22,68 @@ Coffee Forest is a fictional website that sales expensive coffee from all over t
 To create an e-commerce application that will enable Coffee Forest to increase their customer base for their high-end online business. 
 
 # Target Audience
+
+The customers that use Coffee Forest are mostly those that love to drink coffee and want to expand their taste of coffee from the flavors they already know. The audience in this case are a small target willing to pay a premium in order to receive the best tasting coffee the market has to offer anywhere in the world.
+
+# Stakeholder Interviews
+
+## User Persona
+Interviews were carried out with the owners of Coffee Forest, customers that already use the current service and customers who visited the website who were curious about the product. 
+
+Ages between 18-23 were less likely to use the service but a growth among college graduates starting at 24-30 who found jobs upon graduation has given us an inline in purchases. What this is saying is that we are touching base with the younger crowd who have already grown a like for coffee and want to explore upon what more there is out there when it comes to purity and taste. 
+
+&nbsp;
+
+| Name | Age | Uses the Service | Coffee Ordered per Month
+| -- | -- | -- | --
+| Elon Musk | 50 | Owner | N/A
+| Royer Segura | 33 | Owner | N/A
+| Hideo Kojima | 58 | Yes | 4
+| Phil Spencer | 73 | Yes | 6
+| Benny Benassi | 54 | Yes | 3
+| Zack Snyder | 56 | Yes | 3
+| Devante Adams | 29 | No | N/A
+| Hunter Renfrow | 26 | No | N/A
+| Travon Walker | 21 | No | N/A
+| Din Djarin | 27 | No | N/A
+
+&nbsp;
+
+## User Goals
+From the resulting interviews, the user goals have been defined:
+
+1. Create, update and delete coffee selection
+1. Create orders and secure purchases
+1. Select product by price/category
+1. Login and out functionality
+1. View company contact details
+1. Search through products
+1. Reset shopping cart 
+
+&nbsp;
+
+## User Stories
+
+| ID | User Category | User wants to... | So they can... |
+|--|--|--|--|
+| 01 | Store Owner | Add products | Add new items to the store
+| 02 | Store Owner | Edit and update a product | Change the price or any details of a product
+| 03 | Store Owner | Delete products | Remove them from the store
+| 04 | Store Owner | View all purchases | See the customers details after making a purchase
+| 05 | Store Owner | See the number of open orders | Plan their schedule and staff numbers
+| 06 | Shopper | View a list of all the products | Choose products to purchase
+| 07 | Shopper | See individual product details | Have a detailed explanation of the product
+| 08 | Shopper | Have contact information available | Make contact with the store if there is a problem
+| 09 | Shopper | Easily select coffee for purchase | Keep shopping time fluid 
+| 10 | Shopper | See the items selected for purchase | Keep track of my selections
+| 11 | Shopper | See a running total of shopping basket | Keep track of their spending
+| 12 | Shopper | Select multiple quantities of the same product | Order two of the same product
+| 13 | Shopper | Filter the products | Narrow down the products to the ones wanted
+| 14 | Shopper | See the number of search results | See the number of results of the search
+| 15 | Site User | Easily register for an account | view an individual profile
+| 16 | Site User | Easily login and logout | Access personal information
+| 17 | Site User | Recover a password if required | Recover access to their account if required
+| 18 | Site User | Have payment information saved | Speed up use for regular customers
 
 ### 1.2 UX
 
