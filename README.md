@@ -178,6 +178,26 @@ These social platforms include:
 \
 &nbsp;
 
+## Design Choices
+
+### Fonts
+
+* Content - Standard **Sans serif**
+* Headings - [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=josefin "Josefin")
+
+### Colours
+
+One of the main colours I wanted to have on my page was white considering how popular it is among many websites. From there I want colours that make people feel good when visiting a page.
+
+The final decision was the following.
+
+&nbsp;
+![Colour Palette](docs/designs/the-coffee-colors.png)
+
+&nbsp;
+
+The colours will be used as described in the table below
+
 
 
 
@@ -210,10 +230,3 @@ I used [Balsamiq](https://balsamiq.com/) to create all my wireframes:
 ### 2.1 Existing Features
 
 All of my pages consist of the same navigation menu bar or hamburger icon for mobile devices. This format allows the user to understand where everything is located at all times for simplicity. The dropdown/menu will have options for 2 separate continents South America and Africa with countries within the continents. There you will have an existing choice of coffee products you can choose from. The option to add these items to your shopping bag is included as well. The items have a description a rating and a tag for their country of origin. 
-
-## Design Choices
-
-### Fonts
-
-* Content - Standard **Sans serif**
-* Headings - [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=josefin "Josefin")
