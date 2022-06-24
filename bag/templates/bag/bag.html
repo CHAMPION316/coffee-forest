@@ -55,7 +55,7 @@
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
                                                     <button class="decrement-qty btn btn-sm btn-black rounded-0" 
-                                                        data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
+                                                        data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
                                                         <span>
                                                             <i class="bi bi-dash-circle bi-sm"></i>
                                                         </span>
@@ -63,11 +63,11 @@
                                                 </div>
                                                 <input class="form-control form-control-sm qty_input" type="number" 
                                                     name="quantity" value="1" min="1" max="99" 
-                                                    data-item_id="{{ product.id }}" 
-                                                    id="id_qty_{{ product.id }}">
+                                                    data-item_id="{{ item.item_id }}" 
+                                                    id="id_qty_{{ item.item_id }}">
                                                 <div class="input-group-append">
                                                     <button class="increment-qty btn btn-sm btn-black rounded-0"
-                                                        data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
+                                                        data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
                                                         <span>
                                                             <i class="bi bi-plus-circle bi-sm"></i>
                                                         </span>
