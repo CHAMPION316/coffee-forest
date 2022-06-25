@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse, HTTPResponse
+from django.shortcuts import render, redirect, reverse, HttpResponse
 
 # Create your views here.
 
@@ -79,7 +79,7 @@ def remove_from_bag(request, item_id):
             bag.pop(item_id)
 
         request.session['bag'] = bag
-        return HTTPResponse(status=200)
+        return HttpResponse(status=200)
 
     except Exception as e:
-        return HTTPResponse(status=500)
+        return HttpResponse(status=500)
