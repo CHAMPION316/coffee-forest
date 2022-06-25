@@ -123,6 +123,10 @@ a.category-badge > span.badge:hover {
     z-index: 999999999;
 }
 
+.custom-toast {
+    overflow: visible;
+}
+
 .light-green-color {
     background: #c1d1c1 !important;
 }
