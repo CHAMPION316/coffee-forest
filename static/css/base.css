@@ -127,6 +127,10 @@ a.category-badge > span.badge:hover {
     overflow: visible;
 }
 
+.toast-capper {
+    height: 2px;
+}
+
 .light-green-color {
     background: #c1d1c1 !important;
 }
