@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/home/home.css' %}">
+{% endblock %}
+
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -10,16 +14,5 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container">
-        <row class="text-center">
-            <div>
-                <h1 class="logo-font text-uppercase crazy-color-text">coffee from around the world</h1>
-            </div>
-            <div class="my-5">
-                <h4>
-                    <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Purchase Now</a>
-                </h4>
-            </div>
-        </row>
-    </div>
+    {% include 'components/hero-image.html' %}
 {% endblock %}

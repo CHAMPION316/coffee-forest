@@ -3,10 +3,12 @@ html {
 }
 
 body {
-    background: url('/media/pexels-afta-putta-gunawan-683039.jpg') no-repeat center center fixed;
+    background-image: url('/media/pexels-afta-putta-gunawan-683039.jpg');
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: calc(80vh - 164px);
-    color: #555;
+    position: relative;
     font-family: 'Lato';
 }
 
