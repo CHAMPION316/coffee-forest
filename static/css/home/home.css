@@ -1,3 +1,15 @@
+.hero-image {
+    background-image: url('/media/pexels-afta-putta-gunawan-683039.jpg');
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 164px;
+    font-family: 'Lato';
+    
+}
+
 .crazy-color-text {
     -webkit-text-stroke: 0.5px white;
     color: #c1d1c1;
