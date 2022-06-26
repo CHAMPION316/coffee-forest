@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: 'Lato';
+    font-family: 'Lato', ;
 }
 
 /*......................................header nav */
@@ -30,6 +30,26 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 } */
+
+/* 1. Fonts */
+/* 1.1 Font sizes */
+
+.text-xs {
+    font-size: 0.625rem;
+}
+
+.text-sm {
+    font-size: 0.75rem;
+}
+
+.text-md {
+    font-size: 1.125rem;
+}
+
+.text-lg {
+    font-size: 1.875rem;
+}
+
 
 /*.....................................Capatalize logo lettering */
 .logo-font {
