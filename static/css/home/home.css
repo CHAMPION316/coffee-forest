@@ -24,3 +24,16 @@
     color: white;
     min-width: 260px;
 }
+
+.about-section-container {
+    min-height: auto;
+    padding: 3rem 3rem;
+}
+
+.about-image {
+    background-image: url('/media/coffee-mugs.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
