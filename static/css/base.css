@@ -204,14 +204,14 @@ a.category-badge > span.badge:hover {
     }
 
     .header-container {
-        padding-top: 0px;
+        padding-top: 164px;
     }
 }
 
 /*......................add padding to the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 0px;
+        padding-top: 120px;
     }
 
     body {
