@@ -6,29 +6,24 @@ body {
     font-family: 'Lato', ;
 }
 
-/*......................................header nav */
-.crazy-color {
-    background: #c1d1c1;
-}
-
-.continent-color {
-    -webkit-text-stroke: 0.5px white;
-    color: #BFA784;
-}
-
-.crazy-color-text {
-    -webkit-text-stroke: 0.5px white;
-    color: #c1d1c1;
-}
+/* Contents */
+/* 
+    1. Fonts
+        1.1 Font Sizes
+        1.2 Font Colours
+        1.3 Header Text
+    2. Background colours
+    3. Borders
+    4. Buttons
+    5. Forms
+    6. Navbar
+    7. Footer
+    8. Pagination
+    9. Toasts 
+*/
 
 /* 1. Fonts */
 /* 1.1 Font sizes */
-
-.text-header {
-    font-family: 'Titan One', cursive;
-    font-size: 45px;
-
-}
 
 .text-xs {
     font-size: 0.625rem;
@@ -50,6 +45,39 @@ body {
     font-size: 1.875rem;
 }
 
+/* 1.2 Font Colours */
+
+.text-black {
+    color: #000 !important;
+}
+
+.continent-color {
+    -webkit-text-stroke: 0.5px white;
+    color: #BFA784;
+}
+
+/* 1.3 Header Text */
+
+.text-header {
+    font-family: 'Titan One', cursive;
+    font-size: 45px;
+
+}
+
+/* 2. Background colours */
+
+/*......................................header nav */
+.crazy-color {
+    background: #c1d1c1;
+}
+
+.crazy-color-text {
+    -webkit-text-stroke: 0.5px white;
+    color: #c1d1c1;
+}
+
+/* 1. Fonts */
+/* 1.1 Font sizes */
 
 /*.....................................Capatalize logo lettering */
 .logo-font {
@@ -92,10 +120,6 @@ body {
 .btn-black:focus {
     background: #c1d1c1;
     color: black;
-}
-
-.text-black {
-    color: #000 !important;
 }
 
 .border-black {
