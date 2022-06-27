@@ -21,18 +21,14 @@ body {
     color: #c1d1c1;
 }
 
-/* from Bulma */
-/*...............I won't be needing this since I am not using font-awesome */
-/* .icon {
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
-} */
-
 /* 1. Fonts */
 /* 1.1 Font sizes */
+
+.text-header {
+    font-family: 'Titan One', cursive;
+    font-size: 45px;
+
+}
 
 .text-xs {
     font-size: 0.625rem;
@@ -47,6 +43,10 @@ body {
 }
 
 .text-lg {
+    font-size: 1.5rem;
+}
+
+.text-xl {
     font-size: 1.875rem;
 }
 
