@@ -30,6 +30,11 @@
     padding: 3rem 3rem;
 }
 
+.flavor-section-container {
+    min-width: auto;
+    padding: 3rem 3rem;
+}
+
 .about-image {
     background-image: url('/media/coffee-mugs.jpg');
     min-height: 100%;
