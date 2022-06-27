@@ -15,7 +15,6 @@ body {
     2. Background colours
     3. Borders
     4. Buttons
-    5. Forms
     6. Navbar
     7. Footer
     8. Pagination
@@ -51,11 +50,6 @@ body {
     color: #000 !important;
 }
 
-.continent-color {
-    -webkit-text-stroke: 0.5px white;
-    color: #BFA784;
-}
-
 /* 1.3 Header Text */
 
 .text-header {
@@ -71,22 +65,38 @@ body {
     background: #c1d1c1;
 }
 
+.light-green-color {
+    background: #c1d1c1 !important;
+}
+
+/*.......................................overlay color for some pages*/
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #dee0dd;
+    z-index: -1;
+}
+
+/* 3. Borders */
+
 .crazy-color-text {
     -webkit-text-stroke: 0.5px white;
     color: #c1d1c1;
 }
 
-/* 1. Fonts */
-/* 1.1 Font sizes */
-
-/*.....................................Capatalize logo lettering */
-.logo-font {
-    text-transform: uppercase;
+.continent-color {
+    -webkit-text-stroke: 0.5px white;
+    color: #BFA784;
 }
 
-.main-logo-link {
-    width: fit-content;
+.border-black {
+    border: 1px solid black !important;
 }
+
+/* 4. Buttons */
 
 .shop-now-button {
     background: black;
@@ -122,26 +132,6 @@ body {
     color: black;
 }
 
-.border-black {
-    border: 1px solid black !important;
-}
-
-/*.......................................overlay color for some pages*/
-.overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: #dee0dd;
-    z-index: -1;
-}
-
-a.category-badge > span.badge:hover {
-    background: black !important;
-    color: #fff !important;
-}
-
 .btt-button {
     height: 42px;
     width: 42px;
@@ -154,6 +144,21 @@ a.category-badge > span.badge:hover {
 .update-link,
 .remove-item {
     cursor: pointer;
+}
+
+/*.....................................Capatalize logo lettering */
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+
+a.category-badge > span.badge:hover {
+    background: black !important;
+    color: #fff !important;
 }
 
 .message-container {
@@ -169,10 +174,6 @@ a.category-badge > span.badge:hover {
 
 .toast-capper {
     height: 2px;
-}
-
-.light-green-color {
-    background: #c1d1c1 !important;
 }
 
 /* -------------------------------- Media Queries */
