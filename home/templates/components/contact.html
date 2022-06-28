@@ -15,33 +15,33 @@
     
                         <div class="row">
                             <div class="col-lg-6">
-                                <input type="text" name="message-name" placeholder="Your Name" {% if saved_name %} value="" {% endif %}
-                                    class="my-3 mt-md-5 p-2 form-control fw-light text-xs" maxlength="150" required
+                                <input type="text" name="message-name" placeholder="Name" {% if saved_name %} value="" {% endif %}
+                                    class="my-3 mt-md-5 p-2 form-control fw-light text-md" maxlength="150" required
                                     id="message-name">
                             </div>
     
                             <div class="col-lg-6">
-                                <input type="email" name="message-email" placeholder="Your Email" {% if saved_email %} value="" {% endif %}
-                                    class="my-3 mt-lg-5 p-2 form-control fw-light text-xs" maxlength="150" required
+                                <input type="email" name="message-email" placeholder="Email" {% if saved_email %} value="" {% endif %}
+                                    class="my-3 mt-lg-5 p-2 form-control fw-light text-md" maxlength="150" required
                                     id="message-email">
                             </div>
     
                             <div class="col-12">
-                                <textarea name="message" placeholder="Your Message"
-                                    class="my-3 mt-lg-5 form-control fw-light p-3 text-xs" maxlength="150" required
+                                <textarea name="message" placeholder="Message"
+                                    class="my-3 mt-lg-5 form-control fw-light p-3 text-md" maxlength="150" required
                                     id="message"></textarea>
                             </div>
     
                             <div class="col-12 text-center">
                                 <button type="submit"
-                                    class="btn btn-general btn-light-green btn-box-shadow-white text-sm p-3 my-5 mx-3 mx-md-5 rounded-0">Send
+                                    class="btn btn-general btn-light btn-box-shadow-white text-md p-3 my-5 mx-3 mx-md-5 rounded-3 shadow p-3 mb-5 rounded">Send
                                     Message</button>
                             </div>
                         </div>
     
                     </form>
     
-                    <p class="text-center text-sm px-md-5 my-3">You can contact us by <a href=""
+                    <p class="text-center text-md text-black px-md-5 my-3">You can contact us by <a href=""
                             class="text-light-green text-decoration-none">email</a> or simply fill
                         out the form above.</p>
     
