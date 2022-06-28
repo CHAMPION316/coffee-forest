@@ -123,6 +123,10 @@ body {
     border: 1px solid black !important;
 }
 
+.btn-light-green {
+    background-color: #c1d1c1;
+}
+
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
