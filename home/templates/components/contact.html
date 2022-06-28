@@ -1,5 +1,52 @@
 <section id="contact-section">
     <div class="row container-fluid crazy-color text-white py-5 p-0 m-0 d-flex flex-column flex-lg-row align-items-center justify-content-center">
-        <h1>HELLO WORLD</h1>
+        <div class="col-12">
+            <h2 class="text-header text-lg text-center">
+                Contact Us
+            </h2>
+        </div>
+        <div class="col-12 col-lg-6 p-5 d-flex flex-column align-items-center justify-content-center">
+            <!-- Contact Form -->
+            <div class="row">
+                <div class="col-12">
+                    <form action="{% url 'home' %}#contact-section" method="POST"
+                        class="container p-0 d-flex flex-column justify-content-center align-items-center mb-5">
+                        {% csrf_token %}
+    
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="text" name="message-name" placeholder="Your Name" {% if saved_name %} value="" {% endif %}
+                                    class="my-3 mt-md-5 p-2 form-control fw-light text-xs" maxlength="150" required
+                                    id="message-name">
+                            </div>
+    
+                            <div class="col-lg-6">
+                                <input type="email" name="message-email" placeholder="Your Email" {% if saved_email %} value="" {% endif %}
+                                    class="my-3 mt-lg-5 p-2 form-control fw-light text-xs" maxlength="150" required
+                                    id="message-email">
+                            </div>
+    
+                            <div class="col-12">
+                                <textarea name="message" placeholder="Your Message"
+                                    class="my-3 mt-lg-5 form-control fw-light p-3 text-xs" maxlength="150" required
+                                    id="message"></textarea>
+                            </div>
+    
+                            <div class="col-12 text-center">
+                                <button type="submit"
+                                    class="btn btn-general btn-light-green btn-box-shadow-white text-sm p-3 my-5 mx-3 mx-md-5 rounded-0">Send
+                                    Message</button>
+                            </div>
+                        </div>
+    
+                    </form>
+    
+                    <p class="text-center text-sm px-md-5 my-3">You can contact us by <a href=""
+                            class="text-light-green text-decoration-none">email</a> or simply fill
+                        out the form above.</p>
+    
+                </div>
+            </div>
+        </div>
     </div>
 </section>
