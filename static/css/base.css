@@ -95,6 +95,10 @@ body {
     background: #c1d1c1 !important;
 }
 
+.background-white {
+    background-color: #fff !important;
+}
+
 /*.......................................overlay color for some pages*/
 .overlay {
     height: 100%;
