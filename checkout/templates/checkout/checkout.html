@@ -66,8 +66,17 @@
 
                 <div class="submit-button text-right mt-5 mb-2">
                     <a href="{% url 'view_bag' %}" class="btn btn-outline-black rounded-0">
-                        <span class="icon"></span>
+                        <span class="icon">
+                            <i class="bi bi-chevron-left"></i>
+                        </span>
+                        <span class="font-weight-bold">Adjust Bag</span>
                     </a>
+                    <button id="submit-button" class="btn btn-black rounded-0">
+                        <span class="font-weight-bold">Complete Order</span>
+                        <span class="icon">
+                            <i class="bi bi-lock-fill"></i>
+                        </span>
+                    </button>
                 </div>
             </form>
         </div>
