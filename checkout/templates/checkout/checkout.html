@@ -25,6 +25,26 @@
         </div>
 
     <div class="row">
+        <div class="col-12 col-lg-6 order-lg-last mb-5">
+            <div class="row">
+                <div class="col-7 offset-2">
+                    <p class="mb-1 mt-0 small text-muted">Item</p>
+                </div>
+                <div class="col-3 text-right">
+                    <p class="mb-1 mt-0 small text-muted">Subtotal</p>
+                </div>
+            </div>
+            {% for item in bag_items %}
+                <div class="row">
+                    <a href="{% url 'product_detail' %}">
+                        {% if item.product.image %}
+                            <img class="w-100" src="{{ item.product.image.url }}" alt="{{ product.name }}">
+                        {% else %}
+                        <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                        {% endif %}
+                    </a>
+                </div>
+        </div>
         <div class="col-12 col-lg-6">
             <p class="text-muted">Fill out the form to complete your order</p>
             <form action="{% url 'checkout' %}" method="POST" id="payment-form">
