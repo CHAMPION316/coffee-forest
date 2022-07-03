@@ -208,6 +208,26 @@ The colours will be used as described in the table below
 &nbsp;
 
 # Structure
+## App Flow
+
+### Guest User
+
+![Guest User](docs/structure/guest-user-flow.png)
+
+\
+&nbsp;
+
+### Authenticated User
+
+![Authenticated User](docs/structure/authenticated-user-flow.png)
+
+\
+&nbsp;
+
+### Admin
+
+![Admin User](docs/structure/admin-user-flow.png)
+
 
 ### 1.2 UX
 
