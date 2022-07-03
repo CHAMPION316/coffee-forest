@@ -228,6 +228,11 @@ The colours will be used as described in the table below
 
 ![Admin User](docs/structure/admin-user-flow.png)
 
+## Data Schema
+
+### Products
+
+
 
 ### 1.2 UX
 
