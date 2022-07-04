@@ -232,6 +232,15 @@ The colours will be used as described in the table below
 
 ### Products
 
+![Products Data Schema](docs/structure/product-chart.jpg)
+
+\
+&nbsp;
+
+### Orders
+![Orders Data Schema](docs/structure/order-chart.jpg)
+
+## Models
 
 
 ### 1.2 UX
