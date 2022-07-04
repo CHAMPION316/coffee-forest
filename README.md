@@ -242,6 +242,33 @@ The colours will be used as described in the table below
 
 ## Models
 
+### Category
+
+| Name | Key | Type | Other Details
+| -- | -- | -- | --
+| name || CharField | max_length=254
+| friendly_name || CharField | max_length=254
+
+\
+&nbsp;
+
+### Product
+
+| Name | Key | Type | Other Details
+| -- | -- | -- | --
+| category | FK (Product) || null=True, blank=True, on_delete=models.SET_NULL
+| sku || CharField | max_length=254, null=True, blank=True
+| name || CharField | max_length=254
+| description || TextField |
+| gram_sizes || Boolean | default=False, null=True, blank=True
+| price || DecimalField | max_digits=6, decimal_places=2
+| rating || DecimalField | max_digits=6, decimal_places=2, null=True, blank=True
+| image_url || URLField | max_length=1024, null=True, blank=True
+| image || ImageField | null=True, blank=True
+
+
+
+
 
 ### 1.2 UX
 
