@@ -290,7 +290,7 @@ The colours will be used as described in the table below
 \
 &nbsp;
 
-### OrderLineItemgit
+### OrderLineItem
 
 | Name | Key | Type | Other Details
 | -- | -- | -- | --
