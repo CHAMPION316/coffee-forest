@@ -294,12 +294,12 @@ The colours will be used as described in the table below
 
 | Name | Key | Type | Other Details
 | -- | -- | -- | --
-| order | FK (Order) | | 
-| product | FK (Product) | CharField | max_length=254, unique=True
-| product_size | | SlugField | max_length=254, unique=True
-| quantity |  |  CloudinaryField | 'image', default='placeholder, null=True, blank=True
+| order | FK (Order) | | Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems'
+| product | FK (Product) |  | Product, null=False, blank=False, on_delete=models.CASCADE
+| product_size | | CharField | max_length=2, null=True, blank=True
+| quantity |  |  IntegerField | null=False, blank=False, default=0)
 | description | | TextField |
-| lineitem_total |  | DecimalField | max_digits=6, decimal_places=2
+| lineitem_total |  | DecimalField | max_digits=6, decimal_places=2, null=False, blank=False, editable=False
 
 ### 1.2 UX
 
