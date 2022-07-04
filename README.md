@@ -256,7 +256,7 @@ The colours will be used as described in the table below
 
 | Name | Key | Type | Other Details
 | -- | -- | -- | --
-| category | FK (Product) || null=True, blank=True, on_delete=models.SET_NULL
+| category | FK (Category) || null=True, blank=True, on_delete=models.SET_NULL
 | sku || CharField | max_length=254, null=True, blank=True
 | name || CharField | max_length=254
 | description || TextField |
@@ -266,9 +266,40 @@ The colours will be used as described in the table below
 | image_url || URLField | max_length=1024, null=True, blank=True
 | image || ImageField | null=True, blank=True
 
+\
+&nbsp;
 
+### Order
 
+| Name | Key | Type | Other Details
+| -- | -- | -- | --
+| order_number || CharField | max_length=32, null=False, editable=False
+| full_name || CharField | max_length=50, null=False, blank=False
+| email | Key | Charfield | max_length=100, null=False, blank=False
+| phone_number || CharField | max_length=10, null=False, blank=False
+| country || CharField | max_length=40, null=False, blank=False
+| postcode | Key | Charfield | max_length=10, null=True, blank=True
+| town_or_city || CharField | max_length=32, null=False, blank=False
+| street_address || CharField | max_length=100, null=False, blank=False
+| county | Key | Charfield | max_length=80, null=True, blank=True
+| date || DateTimeField | auto_now_add=True
+| delivery_cost || DecimalField | max_digits=6, decimal_places=2, null=False, default=0
+| orde_total | Key | DecimalField | max_digits=10, decimal_places=2, null=False, default=0
+| grand_total || DecimalField | max_digits=10, decimal_places=2, null=False, default=0
 
+\
+&nbsp;
+
+### OrderLineItemgit
+
+| Name | Key | Type | Other Details
+| -- | -- | -- | --
+| order | FK (Order) | | 
+| product | FK (Product) | CharField | max_length=254, unique=True
+| product_size | | SlugField | max_length=254, unique=True
+| quantity |  |  CloudinaryField | 'image', default='placeholder, null=True, blank=True
+| description | | TextField |
+| lineitem_total |  | DecimalField | max_digits=6, decimal_places=2
 
 ### 1.2 UX
 
