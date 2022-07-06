@@ -266,3 +266,11 @@ a.category-badge > span.badge:hover {
         height: calc(100vh - 116px);
     }
 }
+
+
+/*............................prevent overflow of navbar icons on 375px or smaller devices */
+@media (max-width: 375px) {
+    .se-device {
+        padding: 0 4px;
+    }
+}
