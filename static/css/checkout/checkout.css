@@ -22,7 +22,7 @@
 }
 
 .stripe-style-input::placeholder {
-    color: #aab7c4;
+    color: #000;
 }
 
 .fieldset-label {
@@ -33,7 +33,6 @@
 #payment-form .form-control,
 #card-element {
     color: #000;
-    background: #c1d1c1;
+    background: #fff;
     border: 1px solid #000;
-
 }
