@@ -23,7 +23,7 @@ def checkout(request):
     stripe.api_key = stripe_secret_key
     intent = stripe.PaymentIntent.create(
         amount=stripe_total,
-        currenty=settings.STRIPE_CURRENCY,
+        currency=settings.STRIPE_CURRENCY,
     )
     
     print(intent)
