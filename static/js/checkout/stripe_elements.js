@@ -5,13 +5,13 @@
     https://stripe.com/docs/stripe-js
 */
 
-var stripe_public_key = $('#id_stripe_public_key').text.slice(1, -1);
-var client_secret = $('#id_client_secret').text.slice(1, -1);
-var stripe = stripe(stripe_public_key);
+var stripe_public_key = $('#id_stripe_public_key').text().slice(1, -1);
+var client_secret = $('#id_client_secret').text().slice(1, -1);
+var stripe = Stripe(stripe_public_key);
 var elements = stripe.elements();
 var style = {
     base: {
-        color: '#000',
+        color: '#c1d1c1',
         fontFamily: '"Titan One", Josefin Sans, sans-serif',
         fontSmoothing: 'antialiased',
         fontSize: '16px',
@@ -20,9 +20,10 @@ var style = {
         }
     },
     invalid: {
-        color: '#dc3545',
-        iconColor: '#dc3545'
+        color: '#fa775a',
+        iconColor: '#fa775a'
     }
 };
+var cardElement = elements.getElement('card');
 var card = elements.create('card', {style: style});
 card.mount('#card-element');
