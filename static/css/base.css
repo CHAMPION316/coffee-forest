@@ -224,13 +224,10 @@ a.category-badge > span.badge:hover {
     z-index: 99999999999;
 }
 
-.custom-toast {
-    overflow: visible;
-}
-
 .toast-capper {
     height: 2px;
 }
+
 
 /* 8. Media Queries */
 
