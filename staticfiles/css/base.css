@@ -1,0 +1,273 @@
+:root {
+    --white: #FFFFFF;
+    --black: #191919;
+    --black-transp: rgba(25, 25, 25, 0.5);
+    --light-green: #CBC7AE;
+    --dark-green: #2B3A2D;
+    --purple: #482832;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', ;
+}
+
+/* Contents */
+/* 
+    1. Fonts
+        1.1 Font Sizes
+        1.2 Font Colours
+        1.3 Header Text
+        1.4 Capitalize
+    2. Background colours
+    3. Borders
+    4. Buttons
+    5. Navbar
+    6. Footer
+    7. Toasts 
+    8. Media Queries
+*/
+
+/* 1. Fonts */
+/* 1.1 Font sizes */
+
+.text-xs {
+    font-size: 0.625rem;
+}
+
+.text-sm {
+    font-size: 0.75rem;
+}
+
+.text-md {
+    font-size: 1.125rem;
+}
+
+.text-lg {
+    font-size: 1.5rem;
+}
+
+.text-xl {
+    font-size: 1.875rem;
+}
+
+/* 1.2 Font Colours */
+
+.text-black {
+    color: #000 !important;
+}
+
+.text-light-green {
+    color: #c1d1c1;
+}
+
+/* 1.3 Header Text */
+
+.text-header {
+    font-family: 'Titan One', cursive;
+    font-size: 45px;
+
+}
+
+.text-header-sm {
+    font-family: 'Titan One', cursive;
+    font-size: 25px;
+}
+
+/* 1.4 Capitalize Text */
+
+/*.....................................Capitalize logo lettering */
+.logo-font {
+    text-transform: uppercase;
+}
+
+/* 2. Background colours */
+
+/*......................................header nav */
+.crazy-color {
+    background: #c1d1c1;
+}
+
+.light-green-color {
+    background: #c1d1c1 !important;
+}
+
+.background-white {
+    background-color: #fff !important;
+}
+
+/*.......................................overlay color for some pages*/
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #dee0dd;
+    z-index: -1;
+}
+
+/* 3. Borders */
+
+.crazy-color-text {
+    -webkit-text-stroke: 0.5px white;
+    color: #c1d1c1;
+}
+
+.continent-color {
+    -webkit-text-stroke: 0.5px white;
+    color: #BFA784;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #000;
+}
+
+/* 4. Buttons */
+
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 260px;
+}
+
+/*..........................................add to bag button */
+.btn-black {
+    background: black;
+    color: white;
+}
+
+.btn-outline-black {
+    color: black !important; /* use important to override link colors for <a> elements */
+    border: 1px solid black !important;
+}
+
+.btn-light-green {
+    background-color: #c1d1c1;
+}
+
+.btn-light-green:hover,
+.btn-light-green:active,
+.btn-light-green:focus {
+    background: #000;
+    color: white !important;
+    border-color: #f8f9fa;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    background: #000;
+    color: white !important;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: #BFA784;
+    color: white !important;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #c1d1c1;
+    color: black;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
+a.category-badge > span.badge:hover {
+    background: black !important;
+    color: #fff !important;
+}
+
+/* 5. Navbar */
+
+.main-logo-link {
+    width: fit-content;
+}
+
+/* 6. Footer */
+
+/* 7. Toasts */
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+
+/* 8. Media Queries */
+
+/* Slightly larger container on xl screens */
+/* @media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+} */
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
+
+/*......................add padding to the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 120px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+}
+
+
+/*............................prevent overflow of navbar icons on 375px or smaller devices */
+@media (max-width: 375px) {
+    .se-device {
+        padding: 0 4px;
+    }
+}
