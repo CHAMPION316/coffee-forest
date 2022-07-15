@@ -51,8 +51,8 @@ def checkout(request):
                             order_line_item.save()
                 except Product.DoesNotExist:
                     messages.error(request, (
-                        "One of the products in your bag wasn't found in our database. "
-                        "Please call us for assistance!")
+                        "One of the products in your bag is not in ourdatabase. "
+                        "Please contact us through email")
                     )
                     order.delete()
                     return redirect(reverse('view_bag'))
@@ -61,7 +61,7 @@ def checkout(request):
             return redirect(reverse('checkout_success', args=[order.order_number]))
         else:
             messages.error(request, 'There was an error with your form. \
-                Please double check your information.')
+                Please review the information you typed in.')
     else:
         bag = request.session.get('bag', {})
         if not bag:
