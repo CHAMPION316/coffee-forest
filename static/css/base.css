@@ -77,6 +77,15 @@ body {
     font-size: 25px;
 }
 
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
 /* 1.4 Capitalize Text */
 
 /*.....................................Capitalize logo lettering */
