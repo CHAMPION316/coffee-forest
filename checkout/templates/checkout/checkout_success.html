@@ -60,24 +60,127 @@
                     </div>
                 </div>
 
+                {% for item in order.lineitems.all %}
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <p class="small mb-0 text-black font-weight-bold">Order Number</p>
+                        <p class="small mb-0 text-black font-weight-bold">
+                            {{ item.product.name }}{% if item.product_size %} - Size {{ item.product.size|upper }}{% endif %}
+                        </p>
                     </div>
                     <div class="col-12 col-md-4 text-md-right">
-                        <p class="small mb-0">{{ order.order_number }}</p>
+                        <p class="small mb-0">{{ item.quantity }} @ ${{ item.product.price }} each</p>
                     </div>
                 </div>
+                {% endfor %}
                 
                 <div class="row">
                     <div class="col">
                         <small class="text-muted">Delivering To:</small>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <p class="mb-0 text-black font-weight-bold">Order Number</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-right">
+                        <p class="mb-0">{{ order.order_number }}</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <p class="mb-0 text-black font-weight-bold">Order Number</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-right">
+                        <p class="mb-0">{{ order.order_number }}</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <p class="mb-0 text-black font-weight-bold">Order Number</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-right">
+                        <p class="mb-0">{{ order.order_number }}</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <p class="mb-0 text-black font-weight-bold">Order Number</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-right">
+                        <p class="mb-0">{{ order.order_number }}</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <p class="mb-0 text-black font-weight-bold">Order Number</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-right">
+                        <p class="mb-0">{{ order.order_number }}</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <p class="mb-0 text-black font-weight-bold">Order Number</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-right">
+                        <p class="mb-0">{{ order.order_number }}</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <p class="mb-0 text-black font-weight-bold">Order Number</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-right">
+                        <p class="mb-0">{{ order.order_number }}</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <p class="mb-0 text-black font-weight-bold">Order Number</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-right">
+                        <p class="mb-0">{{ order.order_number }}</p>
+                    </div>
+                </div>
                 
                 <div class="row">
                     <div class="col">
                         <small class="text-muted">Billing Info:</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <p class="mb-0 text-black font-weight-bold">Order Number</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-right">
+                        <p class="mb-0">{{ order.order_number }}</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <p class="mb-0 text-black font-weight-bold">Order Number</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-right">
+                        <p class="mb-0">{{ order.order_number }}</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <p class="mb-0 text-black font-weight-bold">Order Number</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-right">
+                        <p class="mb-0">{{ order.order_number }}</p>
                     </div>
                 </div>
             </div>
