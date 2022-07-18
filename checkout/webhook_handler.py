@@ -66,7 +66,7 @@ class StripeWH_Handler:
                     full_name__iexact=shipping_details.name,
                     email__iexact=shipping_details.email,
                     phone_number__iexact=shipping_details.phone,
-                    country__iexact=shipping_details.country
+                    country__iexact=shipping_details.country,
                     postcode__iexact=shipping_details.postal_code,
                     town_or_city__iexact=shipping_details.city,
                     street_address__iexact=shipping_details.line1,
