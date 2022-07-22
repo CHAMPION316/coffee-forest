@@ -246,7 +246,7 @@ a.category-badge > span.badge:hover {
 }
 
 .allauth-form-inner-content input::placeholder {
-    color: red;
+    color: #aab7c4;
 }
 
 
