@@ -28,7 +28,8 @@ body {
     5. Navbar
     6. Footer
     7. Toasts 
-    8. Media Queries
+    8. Allauth accounts
+    9. Media queries
 */
 
 /* 1. Fonts */
@@ -228,8 +229,28 @@ a.category-badge > span.badge:hover {
     height: 2px;
 }
 
+/* 8. Allauth accounts  */
 
-/* 8. Media Queries */
+.alluath-form-inner-content p {
+    margin-top: 1.5rem;
+    color: orange;
+}
+
+.alluath-form-inner-content input {
+    border-color: black;
+    border-radius: 0;
+}
+
+.alluath-form-inner-content label:not([for='id_remember']) {
+    display: none
+}
+
+.allauth-form-inner-content input::placeholder {
+    color: red;
+}
+
+
+/* 9. Media Queries */
 
 /* Slightly larger container on xl screens */
 /* @media (min-width: 1200px) {
