@@ -11,4 +11,4 @@ def index(request):
 # def flavor_view(request):
 #     f = F.objects.all()
 
-#     return render(request,"flavors/index.html", {'f',: f})
+#     return render(request, "home/components/flavors.html", {'f': f})
