@@ -5,7 +5,8 @@ from .models import Flavor
 
 class FlavorAdmin(admin.ModelAdmin):
     list_display = (
-        'title',
+        'title_f',
+        'description_f',
     )
 
 admin.site.register(Flavor, FlavorAdmin)
