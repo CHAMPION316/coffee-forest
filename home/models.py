@@ -10,11 +10,7 @@ class Flavor(models.Model):
     class Meta:
         verbose_name_plural = 'Flavors'
 
-    title_f = models.CharField(max_length=30, null="True", blank="True")
-    description_f = models.TextField()
+    title = models.CharField(max_length=30, null="True", blank="True")
 
     def __str__(self):
-        return self.title_
-
-    def __str__(self):
-        return self.description_f
+        return self.title
