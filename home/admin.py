@@ -5,7 +5,6 @@ from .models import Flavor
 
 class FlavorAdmin(admin.ModelAdmin):
     list_display = (
-        'title_f',
         'description_f',
     )
 
