@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Flavor
+from .models import Flavor, Title
 
 
 
@@ -9,3 +9,11 @@ class FlavorAdmin(admin.ModelAdmin):
     )
 
 admin.site.register(Flavor, FlavorAdmin)
+
+
+class TitleAdmin(admin.ModelAdmin):
+    list_display = (
+        'title_f',
+    )
+
+admin.site.register(Title, TitleAdmin)
