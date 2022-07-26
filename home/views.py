@@ -10,6 +10,6 @@ def index(request):
     titles = Title.objects.order_by('title_f')[0:1].get()
     context = {
         'flavors': flavors,
-        'titles': titles
+        'titles': titles,
     }
     return render(request, 'home/index.html', context)
