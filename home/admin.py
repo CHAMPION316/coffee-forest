@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Flavor, Title
+from .models import Flavor, Title, History
 
 
 
@@ -17,3 +17,11 @@ class TitleAdmin(admin.ModelAdmin):
     )
 
 admin.site.register(Title, TitleAdmin)
+
+
+class HistoryAdmin(admin.ModelAdmin):
+    list_display = (
+        'history_f',
+    )
+
+admin.site.register(History, HistoryAdmin)

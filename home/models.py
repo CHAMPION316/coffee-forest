@@ -29,3 +29,18 @@ class Title(models.Model):
 
     def __str__(self):
         return self.title_f
+
+
+class History(models.Model):
+    """
+    A section to update the history
+    of the page
+    """
+
+    class Meta:
+        verbose_name_plural = 'History'
+
+    history_f = models.TextField()
+
+    def _str__(self):
+        return self.history_f
