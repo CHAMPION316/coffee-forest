@@ -310,33 +310,43 @@ The colours will be used as described in the table below
 
 ### Existing Features
 
-All of my pages consist of the same navigation menu bar or hamburger icon for mobile devices. This format allows the user to understand where everything is located at all times for simplicity. The dropdown/menu will have options for 2 separate continents South America and Africa with countries within the continents. There you will have an existing choice of coffee products you can choose from. The option to add these items to your shopping bag is included as well. The items have a description, price and a tag for their country of origin. 
+### **Navbar**
 
-### Navbar
+All of my pages consist of the same navigation menu bar or hamburger icon for mobile devices. This format allows the user to understand where everything is located at all times for simplicity. The dropdown/menu will have options for 2 separate continents South America and Africa with countries within the continents. The navigation bar is fully responsive to all screen sizes. There are other differences with the navbar depending on the user's login access:
 
-#### **Desktop Nabar**
+#### Desktop Navbar
 
 ![Desktop](docs/features/navbar/desktop.png)
 
-#### **Tablet Navbar**
+#### Tablet Navbar
 
 ![Tablet](docs/features/navbar/tablet.png)
 
-#### **Mobile Navbar**
+#### Mobile Navbar
 
 ![Mobile](docs/features/navbar/mobile.png)
 
-#### **Logged In User**
+#### Logged In User
 
 ![Logged In](docs/features/navbar/logged-in-user.png)
 
-### Footer
+### **Footer**
+
+All pages consist of the same footer which is responsive to all screen sizes.
+
+#### Desktop
+
+![Desktop](docs/features/footer/desktop.png)
+
+#### Tablet
+
+![Tablet](docs/features/footer/tablet.png)
+
+#### Mobile
+
+![Mobile](docs/features/footer/mobile.png)
 
 
-
-
-
-The navigation bar is fully responsive to all screen sizes. There are other differences with the navbar depending on the user's login access:
 
 I decided to go with the color palette found on this image [COLORS](docs/img/color_palette.jpg) which was generated using [coolors](https://coolors.co/). This was possible using the home page image that I found on [pexels](https://www.pexels.com/photo/assorted-decors-with-brown-rack-inside-store-683039/). From there I based the rest of the page on these 5 colors. 
 
