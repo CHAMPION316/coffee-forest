@@ -145,14 +145,14 @@
       {% include 'includes/footer.html' %}
 
       {% block postloadjs %}
-      <!-- <script type="text/javascript">
+      <script type="text/javascript">
         document.getElementById("toastbtn").onclick = function() {
           var toastElList = [].slice.call(document.querySelectorAll('.toast'))
           var toastList = toastElList.map(function(toastEl) {
             return new bootstrap.Toast(toastEl)
           })
         }
-        </script> -->
+        </script>
         <script src="{% static 'js/newsletter/newsletter.js' %}"></script>
         <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
       {% endblock %}
