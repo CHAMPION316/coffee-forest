@@ -10,7 +10,12 @@ A coffee website where you can order luxury coffee from all over South America a
 - [Stakeholder Interviews](#stakeholder-interviews)
 - [Marketing](#marketing)
 - [Structure](#structure)
-- [Testing](#4-testing)
+    - [App Flow](#app-flow)
+    - [Data Schema](#data-schema)
+    - [Models](#models)
+- [Features](#4-features)
+    - [Existing Features](#existing-features)
+        - [Navbar](#navbar)
 - [Improvements](#5-improvements)
 - [Deployment](#6-deployment)
 - [Credits](#7-credits)
@@ -301,7 +306,37 @@ The colours will be used as described in the table below
 | description | | TextField |
 | lineitem_total |  | DecimalField | max_digits=6, decimal_places=2, null=False, blank=False, editable=False
 
-### 1.2 UX
+# Features 
+
+### Existing Features
+
+All of my pages consist of the same navigation menu bar or hamburger icon for mobile devices. This format allows the user to understand where everything is located at all times for simplicity. The dropdown/menu will have options for 2 separate continents South America and Africa with countries within the continents. There you will have an existing choice of coffee products you can choose from. The option to add these items to your shopping bag is included as well. The items have a description, price and a tag for their country of origin. 
+
+### Navbar
+
+#### **Desktop Nabar**
+
+![Desktop](docs/features/navbar/desktop.png)
+
+#### **Tablet Navbar**
+
+![Tablet](docs/features/navbar/tablet.png)
+
+#### **Mobile Navbar**
+
+![Mobile](docs/features/navbar/mobile.png)
+
+#### **Logged In User**
+
+![Logged In](docs/features/navbar/logged-in-user.png)
+
+### Footer
+
+
+
+
+
+The navigation bar is fully responsive to all screen sizes. There are other differences with the navbar depending on the user's login access:
 
 I decided to go with the color palette found on this image [COLORS](docs/img/color_palette.jpg) which was generated using [coolors](https://coolors.co/). This was possible using the home page image that I found on [pexels](https://www.pexels.com/photo/assorted-decors-with-brown-rack-inside-store-683039/). From there I based the rest of the page on these 5 colors. 
 
@@ -313,10 +348,3 @@ I decided to go with the color palette found on this image [COLORS](docs/img/col
 - As a user, I expect to type in keywords in the search bar to find specific products. 
 - As a user, I expect to checkout after finding all the products I need.
 - As a user, I expect have a login system in order to view my shopping history. 
-
-
-##  2 Features 
-
-### 2.1 Existing Features
-
-All of my pages consist of the same navigation menu bar or hamburger icon for mobile devices. This format allows the user to understand where everything is located at all times for simplicity. The dropdown/menu will have options for 2 separate continents South America and Africa with countries within the continents. There you will have an existing choice of coffee products you can choose from. The option to add these items to your shopping bag is included as well. The items have a description a rating and a tag for their country of origin. 
