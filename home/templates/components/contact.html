@@ -5,48 +5,57 @@
                 Contact Us
             </h2>
         </div>
-        <div class="col-12 col-lg-6 p-5 d-flex flex-column align-items-center justify-content-center">
-            <!-- Contact Form -->
-            <div class="row">
-                <div class="col-12">
-                    <form action="{% url 'home' %}#contact-section" method="POST"
-                        class="container p-0 d-flex flex-column justify-content-center align-items-center mb-5">
-                        {% csrf_token %}
-    
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <input type="text" name="message-name" placeholder="Name" {% if saved_name %} value="" {% endif %}
-                                    class="my-3 mt-md-5 p-2 form-control fw-light text-md" maxlength="150" required
-                                    id="message-name">
+
+        {% if name %}
+            <p class="h4 text-black text-center mt-5 p-3">
+                Thanks for your message {{ name }}, we will respond as soon as possible.
+            </p>
+
+        {% else %}
+
+            <div class="col-12 col-lg-6 p-5 d-flex flex-column align-items-center justify-content-center">
+                <!-- Contact Form -->
+                <div class="row">
+                    <div class="col-12">
+                        <form action="{% url 'home' %}#contact-section" method="POST"
+                            class="container p-0 d-flex flex-column justify-content-center align-items-center mb-5">
+                            {% csrf_token %}
+        
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" name="message-name" placeholder="Name" {% if saved_name %} value="" {% endif %}
+                                        class="my-3 mt-md-5 p-2 form-control fw-light text-md" maxlength="150" required
+                                        id="message-name">
+                                </div>
+        
+                                <div class="col-lg-6">
+                                    <input type="email" name="message-email" placeholder="Email" {% if saved_email %} value="" {% endif %}
+                                        class="my-3 mt-lg-5 p-2 form-control fw-light text-md" maxlength="150" required
+                                        id="message-email">
+                                </div>
+        
+                                <div class="col-12">
+                                    <textarea name="message" placeholder="Message"
+                                        class="my-3 mt-lg-5 form-control fw-light p-3 text-md" maxlength="150" required
+                                        id="message"></textarea>
+                                </div>
+        
+                                <div class="col-12 text-center">
+                                    <button type="submit"
+                                        class="btn btn-light btn-box-shadow-white text-md p-3 my-5 mx-3 mx-md-5 rounded-3 shadow p-3 mb-5 rounded">Send
+                                        Message</button>
+                                </div>
                             </div>
-    
-                            <div class="col-lg-6">
-                                <input type="email" name="message-email" placeholder="Email" {% if saved_email %} value="" {% endif %}
-                                    class="my-3 mt-lg-5 p-2 form-control fw-light text-md" maxlength="150" required
-                                    id="message-email">
-                            </div>
-    
-                            <div class="col-12">
-                                <textarea name="message" placeholder="Message"
-                                    class="my-3 mt-lg-5 form-control fw-light p-3 text-md" maxlength="150" required
-                                    id="message"></textarea>
-                            </div>
-    
-                            <div class="col-12 text-center">
-                                <button type="submit"
-                                    class="btn btn-light btn-box-shadow-white text-md p-3 my-5 mx-3 mx-md-5 rounded-3 shadow p-3 mb-5 rounded">Send
-                                    Message</button>
-                            </div>
-                        </div>
-    
-                    </form>
-    
-                    <p class="text-center text-md text-black px-md-5 my-3">You can contact us by <a href=""
-                            class="text-secondary text-decoration-none">email</a> or simply fill
-                        out the form above.</p>
-    
+        
+                        </form>
+        
+                        <p class="text-center text-md text-black px-md-5 my-3">You can contact us by <a href=""
+                                class="text-secondary text-decoration-none">email</a> or simply fill
+                            out the form above.</p>
+        
+                    </div>
                 </div>
             </div>
-        </div>
+        {% endif %}
     </div>
 </section>
