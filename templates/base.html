@@ -21,6 +21,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
     {% endblock %}
 
     {% block extra_css %}
@@ -144,14 +145,16 @@
       {% include 'includes/footer.html' %}
 
       {% block postloadjs %}
-      <script type="text/javascript">
+      <!-- <script type="text/javascript">
         document.getElementById("toastbtn").onclick = function() {
           var toastElList = [].slice.call(document.querySelectorAll('.toast'))
           var toastList = toastElList.map(function(toastEl) {
             return new bootstrap.Toast(toastEl)
           })
         }
-        </script>
+        </script> -->
+        <script src="{% static 'js/newsletter/newsletter.js' %}"></script>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
       {% endblock %}
       
 
