@@ -17,7 +17,7 @@ A coffee website where you can order luxury coffee from all over South America a
 
 # Background 
 
-Coffee Forest is a fictional website that sales expensive coffee from all over the continents of South America and Africa. This coffee goes through a (rigorous process) in order to be made. The process of course is fictional 😂 as you will find out in their descriptions but resembles some authenticity to how the real life process is somehwat created. For the sake of fiction people are highly interested in this kind of coffee and how it tastes. 
+Coffee Forest is a fictional website that sells expensive coffee from all over the continents of South America and Africa. This coffee goes through a (rigorous process) in order to be made. The process of course is fictional 😂 as you will find out in their descriptions but resembles some authenticity to how the real life process is somewhat created. For the sake of fiction people are highly interested in this kind of coffee and how it tastes. 
 
 # Mission Statement
 
