@@ -332,7 +332,7 @@ All of my pages consist of the same navigation menu bar or hamburger icon for mo
 
 ### **Footer**
 
-All pages consist of the same footer which is responsive to all screen sizes.
+All pages consist of the same footer which is responsive to all screen sizes. The footer has a Newsletter to sign up which is fully functionally. It also consist of icons for social media platforms and contact information.
 
 #### Desktop
 
@@ -345,6 +345,22 @@ All pages consist of the same footer which is responsive to all screen sizes.
 #### Mobile
 
 ![Mobile](docs/features/footer/mobile.png)
+
+### **Homepage**
+
+The home page consists of four sections:
+- Hero Image, includes simple button navigation to the products.html page by clcking on the **PURCHASE NOW** button.
+
+![Hero Image](docs/features/homepage/homepage.png)
+
+The **about** section gives a description about the company and it's history.
+
+![About Image](docs/features/homepage/about.png)
+
+The **flavors** section gives a description about the many flavors the online store has and how they are made.
+
+![Flavors](docs/features/homepage/flavors.png)
+
 
 
 
