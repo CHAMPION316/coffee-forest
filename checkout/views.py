@@ -76,7 +76,7 @@ def checkout(request):
                             order_line_item.save()
                 except Product.DoesNotExist:
                     messages.error(request, (
-                        "One of the products in your bag is not in ourdatabase. "
+                        "One of the products in your bag is not in our database. "
                         "Please contact us through email")
                     )
                     order.delete()
@@ -86,7 +86,7 @@ def checkout(request):
             return redirect(reverse('checkout_success', args=[order.order_number]))
         else:
             messages.error(request, 'There was an error with your form. \
-                Please review the information you typed in.')
+                Please review the form again.')
     else:
         bag = request.session.get('bag', {})
         if not bag:
@@ -101,6 +101,11 @@ def checkout(request):
             amount=stripe_total,
             currency=settings.STRIPE_CURRENCY,
         )
+
+        if request.user.is_authenticated:
+            try:
+                profile = UserProfileForm.objects.get(user=request.user)
+                order_form
 
         order_form = OrderForm()
 
