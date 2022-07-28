@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Flavor, Title, History
+from .models import Flavor, Title, History, Icon
 
 
 
@@ -25,3 +25,11 @@ class HistoryAdmin(admin.ModelAdmin):
     )
 
 admin.site.register(History, HistoryAdmin)
+
+
+class IconAdmin(admin.ModelAdmin):
+    list_display = (
+        'website',
+    )
+
+admin.site.register(Icon, IconAdmin)
