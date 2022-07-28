@@ -10,4 +10,6 @@ def global_context(request):
         'histories': get_object_or_404(History, pk=1),
         'histories2': get_object_or_404(History, pk=2),
         'icon_t': get_object_or_404(Icon, pk=1),
+        'icon_f': get_object_or_404(Icon, pk=2),
+        'icon_i': get_object_or_404(Icon, pk=3),
     }

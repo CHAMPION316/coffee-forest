@@ -15,6 +15,8 @@ def index(request):
     histories = History.objects.order_by('history_f')[0:1].get()
     histories2 = History.objects.order_by('history_f')[1:2].get()
     icon_t = Icon.objects.order_by('website')[0:1].get()
+    icon_f = Icon.objects.order_by('website')[1:2].get()
+    icon_i = Icon.objects.order_by('website')[2:3].get()
 
     context = {
         'flavors': flavors,
