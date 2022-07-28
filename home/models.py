@@ -1,4 +1,5 @@
 from django.db import models
+from django.db.models import Model
 
 
 class Flavor(models.Model):
@@ -44,3 +45,15 @@ class History(models.Model):
 
     def _str__(self):
         return self.history_f
+
+
+class Icon(models.Model):
+    """
+    URLField for footer icons
+    """
+
+    class Meta:
+        verbose_name_plural = 'Icons'
+    
+    name = models.CharField(max_length=200, null=False, blank=False)
+    website = models.URLField(max_length = 200)
