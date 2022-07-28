@@ -1,5 +1,5 @@
 from django.shortcuts import get_object_or_404
-from .models import Title, Flavor, History
+from .models import Title, Flavor, History, Icon
 
 
 def global_context(request):
@@ -9,4 +9,5 @@ def global_context(request):
         'flavors': get_object_or_404(Flavor),
         'histories': get_object_or_404(History, pk=1),
         'histories2': get_object_or_404(History, pk=2),
+        'icon_t': get_object_or_404(Icon, pk=1),
     }
