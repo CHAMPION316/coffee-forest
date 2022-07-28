@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
-from.models import Flavor, Title, History
+from .models import Flavor, Title, History
 from django import template
 
 from django.core.mail import send_mail
