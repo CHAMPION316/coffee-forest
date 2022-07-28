@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
-from .models import Flavor, Title, History
+from .models import Flavor, Title, History, Icon
 from django import template
 
 from django.core.mail import send_mail
@@ -14,12 +14,14 @@ def index(request):
     titles = Title.objects.order_by('title_f')[0:1].get()
     histories = History.objects.order_by('history_f')[0:1].get()
     histories2 = History.objects.order_by('history_f')[1:2].get()
+    icon_t = Icon.objects.order_by('website')[0:1].get()
 
     context = {
         'flavors': flavors,
         'titles': titles,
         'histories': histories,
         'histories2': histories2,
+        'icon_t': icon_t,
     }
 
     if request.method == "POST":
