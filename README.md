@@ -348,50 +348,57 @@ All pages consist of the same footer which is responsive to all screen sizes. Th
 
 ### **Homepage**
 
-The home page consists of four sections:
+* The home page consists of four sections:
 - Hero Image, includes simple button navigation to the products.html page by clcking on the **PURCHASE NOW** button.
 
 ![Hero Image](docs/features/homepage/homepage.png)
 
-The **about** section gives a description about the company and it's history.
+* The **about** section gives a description about the company and it's history.
 
 ![About Image](docs/features/homepage/about.png)
 
-The **flavors** section gives a description about the many flavors the online store has and how they are made.
+* The **flavors** section gives a description about the many flavors the online store has and how they are made.
 
 ![Flavors](docs/features/homepage/flavors.png)
 
-The **Contact Us** section is a form if user has any question about the company where they can submit their email, name, and message.
+* The **Contact Us** section is a form if user has any question about the company where they can submit their email, name, and message.
 
 ![Contact Us](docs/features/homepage/contactus.png)
 
 ### Product Page
 
-The product page consist of all the products that can be found in the store. They are categorized as well for an easier search.
+* The product page consist of all the products that can be found in the store. They are categorized as well for an easier search.
 - The navbar has a dropdown that will take the user to differnt categories either by continent, country or product pricing and rating etc.
 
-The **categories dropdown** is as follows:
+* The **categories dropdown** is as follows:
 
 ![Product Categories](docs/features/product/product-categories.png)
 
-The **products page** gives a wide range of all the products the user is looking for. The main page has all items in one by rows and columns.
+* The **products page** gives a wide range of all the products the user is looking for. The main page has all items in one by rows and columns.
 - The other pagers are rendered the same but based on what category the user is looking for.
 
 ![Products](docs/features/product/products.png)
 
-The **product detail** page gives a description on the product as well as gram sizes and the option to continue shopping or add item to cart.
+* The **product detail** page gives a description on the product as well as gram sizes and the option to continue shopping or add item to cart.
 
 ![Product Details](docs/features/product/product-detail.png)
 
+### Basket
 
+The basket fills up in price when the user add products and a toast appears when a product is added to the basket to inform the user.
 
-I decided to go with the color palette found on this image [COLORS](docs/img/color_palette.jpg) which was generated using [coolors](https://coolors.co/). This was possible using the home page image that I found on [pexels](https://www.pexels.com/photo/assorted-decors-with-brown-rack-inside-store-683039/). From there I based the rest of the page on these 5 colors. 
+![Basket](docs/features/basket/basket-add.png)
 
-### 1.3 User Stories 
+* All bag contents can be viewed by clicking on the bag and seeing all the products listed on there. 
 
-- As a user, I expect to navigate the website with ease of use.
-- As a user, I expect to find products as seamless as possible.
-- As a user, I expect to put the products I want in a basket. 
-- As a user, I expect to type in keywords in the search bar to find specific products. 
-- As a user, I expect to checkout after finding all the products I need.
-- As a user, I expect have a login system in order to view my shopping history. 
+![Basket Total](docs/features/basket/basket-total.png)
+
+### Checkout 
+
+* The checkout page displays a table of the user's basket items and then the billing information form. This includes user details and address information. The full name, email and phone number and card number fields are all also required. There is also a checkbox option for the user to save their details, however, this is only available to users that are signed up and logged in.
+
+![Checkout](docs/features/checkout/checkout-details.png)
+
+* After hitting the purchase button, a spin loader appears at center screen until Stripe has processed the payment (only set up for test payments at the minute) and then navigated to the order details page.
+
+![Details](docs/features/checkout/checkout-details.png)
