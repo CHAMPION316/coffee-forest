@@ -187,6 +187,8 @@ STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+
+# Default Email
 DEFAULT_FROM_EMAIL = os.getenv('coffeeforest@example.com')
 
 # Default primary key field type
