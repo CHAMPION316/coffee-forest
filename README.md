@@ -361,6 +361,27 @@ The **flavors** section gives a description about the many flavors the online st
 
 ![Flavors](docs/features/homepage/flavors.png)
 
+The **Contact Us** section is a form if user has any question about the company where they can submit their email, name, and message.
+
+![Contact Us](docs/features/homepage/contactus.png)
+
+### Product Page
+
+The product page consist of all the products that can be found in the store. They are categorized as well for an easier search.
+- The navbar has a dropdown that will take the user to differnt categories either by continent, country or product pricing and rating etc.
+
+The **categories dropdown** is as follows:
+
+![Product Categories](docs/features/product/product-categories.png)
+
+The **products page** gives a wide range of all the products the user is looking for. The main page has all items in one by rows and columns.
+- The other pagers are rendered the same but based on what category the user is looking for.
+
+![Products](docs/features/product/products.png)
+
+The **product detail** page gives a description on the product as well as gram sizes and the option to continue shopping or add item to cart.
+
+![Product Details](docs/features/product/product-detail.png)
 
 
 
