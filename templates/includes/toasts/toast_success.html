@@ -1,57 +1,12 @@
 <div class="toast show custom-toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
     <div class="toast-header bg-success text-dark">
-        <strong class="me-auto">Success!</strong>
-        <small>Item added to bag</small>
-        <button type="button" id="toastbtn" class="btn-close" data-bs-dismiss="toast" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
+      <strong class="me-auto">Success</strong>
+      <small>Item added to bag</small>
+      <button type="button" id="toastbtn" class="btn-close" data-bs-dismiss="toast" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
     </div>
     <div class="toast-body">
-        <div class="row">
-            <div class="col"></div>
-                {{ message }}
-                <hr class="mt-1 mb-3">
-            </div>
-        </div>
-        {% if grand_total and not on_profile_page %}
-            <p class="logo-font bg-white text-black py-1">Your Bag ({{ product_count }})</p>
-            <div class="bag-notification-wrapper">
-                {% for items in bag_items %}
-                    <div class="row">
-                        <div class="col-3 m-1">
-                            {% if item.product.image %}
-                            <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
-                            {% else %}
-                            <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
-                            {% endif %}
-                        </div>
-                        <div class="col-9">
-                            <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                            <p class="my-0 small">Size: {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
-                            <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
-                        </div>
-                    </div>
-                {% endfor %}    
-            </div>
-            <div class="row">
-                <div class="col">
-                    <strong><p class="mt-3 mb-1 text-black">
-                        Total{% if free_delivery_delta > 0 %} (Exc. delivery){% endif %}:
-                        <span class="float-right">${{ total|floatformat:2 }}</span>
-                    </p></strong>
-                    {% if free_delivery_delta > 0 %}
-                        <p class="mb-0 p-2 bg-warning shadow-sm text-black text-center">
-                            Spend <strong>${{ free_delivery_delta }}</strong> more to get free next day delivery!
-                        </p>
-                    {% endif %}
-                    <a href="{% url 'view_bag' %}" class="btn btn-black btn-block rounded-0">
-                        <span class="text-uppercase">Go To Secure Checkout</span>
-                        <span class="icon">
-                            <i class="bi bi-lock-fill"></i>
-                        </span>
-                    </a>
-                </div>
-            </div>
-        {% endif %}
+      {{ message }}
     </div>
 </div>
