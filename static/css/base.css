@@ -221,6 +221,15 @@ a.category-badge > span.badge:hover {
 
 /* 6. Footer */
 
+.text-black:hover {
+    color: #c1d1c1 !important;
+}
+
+
+.icon-black:hover {
+    color: #c1d1c1;
+}
+
 /* 7. Toasts */
 
 .message-container {
