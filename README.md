@@ -480,3 +480,204 @@ There are a few ideas that I would like to implement in the future:
 | Google Fonts| Fonts |[Google Fonts](https://fonts.google.com/ "Fonts")|
 |Pillow| Image processing tool | [Pillow](https://pillow.readthedocs.io/en/stable/ "Pillow")
 |Stripe| online payments| [Stripe](https://stripe.com/en-gb "Stripe")
+
+# Testing
+
+\
+&nbsp;
+
+### UX Testing
+
+## Issues and bugs
+
+| ID |  User wants to... | Issue Number | Comments
+|--|--|--| -- |
+| 01 | Add 1 product bug | [Issue #38](https://github.com/CHAMPION316/coffee-forest/issues/38) | The follow up of the same product at the index of 1 doesn't add to bag total
+| 02 | Fields don't save profile form | [Issue #36](https://github.com/CHAMPION316/coffee-forest/issues/36) | User details after purchase and going to profile page doesn't save their details in the profile page.
+| 03 | Styling crispy form | [Issue #31](https://github.com/CHAMPION316/coffee-forest/issues/31) | Crispy forms styling wasn't registering
+| 04 | Mobile increment 1 | [Issue #24](https://github.com/CHAMPION316/coffee-forest/issues/24) | Increment product by count of 1 didn't register on mobile
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+## Automated Testing
+This part of the project was incredibly difficult for me this goes back to PP4. I still need a better understanding of how to create testing but unfortunately time wasn't on my side to commit to this. 
+
+## Code Validation
+
+### HTML
+| File Name | File Path | Result | W3C | Comments |
+|--|--|--|--|--|
+| index.html | home/templates/home/index.html | PASS | [link](readme/docs/validation/html/homepage.png "link") ||
+
+* **Unfortunately due to time constraints I could not validate all my code. However I did find a site that can do it for me but it woudld of been time consuming to do each file when I only have less than 50min to send the project in. Here is the link to that site
+
+[TUTORIALPOINT](https://www.tutorialspoint.com/index.htm)
+
+# Deployment
+
+This project was created using GitHub and the code was written using Gitpod. Branches were created and after committing to the branch it was pushed up to the repository. This project is also deployed to Heroku, during its early stages, Heroku deployment was set to *Enable Automatic Deploys*, which meant that every time that the repository was pushed to, Heroku was updated also. However, Heroku encountered a security issue so automatic deployments were no longer available so the following deployment procedure was followed in the workspace terminal.
+
+```
+heroku login -i
+
+Email: __enter_heroku_account_email__
+Password: __enter_heroku_account_password__
+
+heroku git:remote -a __your _heroku_app_name__
+
+git push heroku main
+```
+
+The live link to the application can be found [here](https://swanbourne-village-stores.herokuapp.com/ "Link")
+
+## Local Deployment
+
+As Gitpod was the IDE that was used to create the project, the following local deployment steps are specific to Gitpod.
+
+### GitHub
+* Visit Github by following this [link](https://github.com/ "Link")
+* Create an account or log in
+
+#### Forking
+* Navigate to the repository by following this [link](https://github.com/CHAMPION316/coffee-forest "Link")
+* Click on the *Fork* button in the top right of the screen
+
+#### GitHub Desktop
+* Navigate to the repository by following this [link](https://github.com/CHAMPION316/coffee-forest "Link")
+* Click on the *Code* button above the file list
+* Select *Open with GitHub Desktop*
+
+### Set up your Workspace
+When you have your version of the original repository,
+
+* In the terminal run
+```
+pip3 install -r requirements.txt
+```
+* In the root directory create a file called **env.py** and add the following content, the content of these, must match the Config Vars in the Heroku deployment section
+
+```py
+import os
+
+os.environ['DATABASE_URL'] = "FROM HEROKU DEPLOYMENT SECTION, DATABASE_URL CONFIG VAR"
+os.environ['SECRET_KEY'] = "FROM HEROKU DEPLOYMENT SECTION SECRET_KEY CONFIG VAR"
+os.environ['DEVELOP'] = '1'
+
+```
+
+* Add the env.py file to the .gitignore file to ensure that its contents are not made public
+
+* Migrate the database models with the following command in the terminal
+```
+python3 manage.py migrate
+```
+
+* Create a superuser and set up the credentials with the following command
+```
+python3 manage.py createsuperuser
+```
+
+* Run the application locally with the command
+```
+python3 manage.py runserver
+```
+
+* To access the admin page using the superuser details just created, add /admin to the end of the URL.
+
+### Deployment via Heroku
+* Visit [heroku.com](https://www.heroku.com/home "Heroku")
+* Create a new account or sign in
+* From the dashboard, select **New** and then **Create new app**
+* Enter an individual app name into the text box, select a region from the dropdown and then press **Create app**
+* A Heroku app has now been created and the **Deploy** tab is opened. 
+* Open the *Resources* tab and in the search bar for *Add-ons* type *Postgres*
+* Select *Heroku Postgres*, on the popup, ensure the dropdown is set to *Hobby Dev - Free* and then *Submit Order Form*
+* Open the *Settings* tab and then click on the *Reveal Config Vars* button and the database_url should be populated.
+* Fill out the rest of the config vars with the content of the table below by filling out the *Key* and *Value* and clicking on *Add* for each entry 
+
+| Key | Value |
+| --- | --- |
+| SECRET_KEY | Secret Key generated from [here](https://miniwebtool.com/django-secret-key-generator/ "Shhh...")
+| EMAIL_HOST_PASS | Password from Gmail authentication setup
+| EMAIL_HOST_USER | Gmail account that will be used
+| STRIPE_PUBLIC_KEY | From the stripe section
+| STRIPE_SECRET_KEY | From the stripe section
+| STRIPE_WH_SECRET | From the stripe section
+
+* In the buildpacks section of the settings tab, click on **Add Buildpack**, select **python** and then save changes
+* Open the **Deploy** tab
+* In the deployment method section, select **GitHub** and confirm the connection.
+* Enter the repo name into the text box and click **Search**. When the correct repo appears below, click **Connect**
+* Return to the Gitpod workspace and in the root directory create a file called *Procfile*
+* In the *Procfile* enter the following line including your project name
+```
+web: gunicorn YOUR_PROJECT_NAME.wsgi
+```
+* Add and commit to GitHub
+```
+git add .
+git commit -m "commit message goes here"
+git push
+```
+* Add your Heroku app URL to ALLOWED_HOSTS in your settings.py file
+```py
+ALLOWED_HOSTS = ['YOUR_PROJECT_NAME.herokuapp.com', 'localhost']
+```
+* Return to Heroku
+* In the Automatic deploys section, click **Enable Automatic Deploys**. This updates every time GitHub code is pushed
+* To complete the process click on the **Deploy Brach** button in the Manual deploy section, this will take a few seconds to complete while Heroku builds the app
+* A message will appear informing you that the app was successfully deployed and a **View** button will bring you to the live site
+
+
+### Stripe
+* Visit Stripe by following this [link](https://dashboard.stripe.com/register "Stirpe")
+* And register for an account, for this project as it is only set up for test payments the *activate payments* section can be skipped.
+* From the dashboard, click on the *Developers* and then on the lefthand side, *Webhooks*.
+* Click on the *Add endpoint button* and paste in the Heroku URL with `/checkout/wh/` included on the end, for example, this project would be `https://swanbourne-village-stores.herokuapp.com/checkout/wh/`
+* Add an optional description if required
+* Click the *Select events* button and mark the checkbox for *Select all events*, then click *
+Add events*.
+* Scroll to the very bottom of the page and then click *Add endpoint*
+* From the webhook page under the URL, reveal the Signing secret, this will need to be added to Heroku config vars as STRIPE_WH_SECRET.
+* Still in the developer's section of Stripe, click on the *API keys* link on the left, the *Publishable key* (STRIPE_PUBLIC_KEY) and *Secret key* (STRIPE_SECRET_KEY) will also be needed to be added to Heroku config vars.
+
+### Email setup
+This project is using Gmail as its email provider. Other providers can be used but the setup will differ slightly.
+
+* Create a Gmail account, or log in if you already have an account
+* At the top right waffle menu select *Account*, then on the left of the screen select *Security*
+* In the *Signing into Google* section turn on 2-step verification and then click *Get started*
+* Enter your password and select a verification method
+* Go back to the security page and under the 2-step verification there is a new option called *App passwords*, click it.
+* In the select app dropdown, select *Mail*
+* In the select device dropdown, select *Other* and type in *Django*
+* The app password will be shown, copy this and add it to the Heroku config vars as EMAIL_HOST_PASS.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Credits
+- I would like to thank my lovely wife for being there during this crazy year of up and downs especially when it comes to traveling for work which a lot of the time hinders my time with the course. I want to thank the team over at CodeInstitute especially Simen Daehlin for being a fantastic mentor and pushing me to meet deadlines. Everyone at Slack and the wonderful pages upon pages of information you find over at stackoverflow.com Big thanks to an old friend of mine nick named (Wheels) who is a programmer and helped me out for bits and pieces.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# My Thoughts
+
+This was one of the hardest challengs I had to go through in anything I've done. Everyday I'm living with imposter syndrome when it comes to programming. The days that the code works I tell myself wait maybe this is possible. I mean if it was that easy everyone could do it. I'm a little sad for the things I could not add to the project and I have to admit that I struggle a lot trying to write code in python and js. I spent more time trying to break down code during this whole course than I can remember. I know it will come in time but I just don't feel like I'm quite there yet when it comes to writing really good code on my own. 
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
