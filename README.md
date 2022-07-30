@@ -1,6 +1,12 @@
-# Coffee Forrest &#9749;
+# **Coffee Forrest** &#9749;
+![Mockup](docs/designs/respsonive.png "Mockup")
 
-A coffee website where you can order luxury coffee from all over South America and Africa. 
+\
+&nbsp;
+Live link can be found here - [Coffee Forest](https://coffee-forest.herokuapp.com/ "Coffee Forest")
+
+\
+&nbsp;
 
 # Table of contents
 
@@ -430,6 +436,7 @@ There are a few ideas that I would like to implement in the future:
 * Ability to add a profile picture.
 * Ability for the admin to see a list of all the users and adjust their access rights if required.
 * Ability for rating system of the products to actually work
+* Create different prices that correspond to the different sizes of the products. 
 
 \
 &nbsp;
