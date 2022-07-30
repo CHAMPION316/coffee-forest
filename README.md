@@ -401,4 +401,75 @@ The basket fills up in price when the user add products and a toast appears when
 
 * After hitting the purchase button, a spin loader appears at center screen until Stripe has processed the payment (only set up for test payments at the minute) and then navigated to the order details page.
 
-![Details](docs/features/checkout/checkout-details.png)
+![Details](docs/features/checkout/checkout-confirmation.png)
+
+### Profile
+
+* The profile page allows the user, to update their default delivery information and view their purchase history.
+    * **At the time of this writing I was unable to get the default information to stay saved on the profile**
+
+![Profile](docs/features/profile/profile-details.png)
+
+### Product Management
+
+* The product management page is only for higher management users which can be givin those privileges in the admin panel. These users can add/edit/delete products themselves. 
+
+![Management](docs/features/management/p-management.png)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+## Features to be Implemented
+
+There are a few ideas that I would like to implement in the future:
+* Login via social media accounts.
+* Administration section to change a user to superuser status if say the user has been promoted.
+* Ability to add a profile picture.
+* Ability for the admin to see a list of all the users and adjust their access rights if required.
+* Ability for rating system of the products to actually work
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+
+# Technologies used
+
+## Languages
+
+| Languages | Link |
+|--|--|
+|HTML|[HTML](https://en.wikipedia.org/wiki/HTML5 "HTML") 
+|CSS|[CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+|JavaScript|[JavaScript](https://en.wikipedia.org/wiki/JavaScript "JS")
+|jQuery|[jQuery](https://jquery.com/ "jQuery")
+|Python|[Python](https://en.wikipedia.org/wiki/Python_(programming_language) "Python")
+|Markdown|[Markdown](https://en.wikipedia.org/wiki/Markdown)
+
+## Libraries, Frameworks and Tools
+| Libraries / Frameworks / Tools| Description | Link |
+|--|--|--|
+|Django|Database Driven Framework| [django](https://en.wikipedia.org/wiki/Django_(web_framework) "django")|
+|gunicorn|HTTP Interface Server|[gunicorn](https://en.wikipedia.org/wiki/Gunicorn "gunicorn")|
+|psycopg2| Database adaptor | [psycopg2](https://wiki.postgresql.org/wiki/Psycopg "psycogg2")
+|django auth|User authentication|[auth](https://docs.djangoproject.com/en/3.2/topics/auth/ "auth")|
+| django crispy forms | Styling forms | [crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/ "crispy-forms")
+|Site mockup| Mockup of site on different screen sizes|[Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php "Mockup Generator")
+|HTML Validation| Validating HTML|[w3.org](https://validator.w3.org/ "W3C")
+|CSS Validation| Validating CSS|[w3.org](https://jigsaw.w3.org/css-validator/ "W3C")
+|JS Validation|Validating JS & jQuery|[jshint](https://jshint.com/ "JSHint")
+|PEP8|Validating python|[PEP8](http://pep8online.com/ "PEP8")
+| Unsplash | Images |[Pexels](https://www.pexels.com/ "Pexels")
+| GitPod | Development environment |[Gitpod](https://www.gitpod.io/ "Gitpod")
+| Balsamic | Wireframes |[Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+| Bootstrap | Responsive design |[Bootstrap](https://getbootstrap.com "Bootstrap")
+| miniwebtool | Secret Key |[Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/ "miniwebtool")
+| Colours|Colour pallet| [coolors](https://coolors.co/ "coolors")|
+| Google Fonts| Fonts |[Google Fonts](https://fonts.google.com/ "Fonts")|
+|Pillow| Image processing tool | [Pillow](https://pillow.readthedocs.io/en/stable/ "Pillow")
+|Stripe| online payments| [Stripe](https://stripe.com/en-gb "Stripe")
