@@ -315,34 +315,34 @@ The colours will be used as described in the table below
 | description | | TextField |
 | lineitem_total |  | DecimalField | max_digits=6, decimal_places=2, null=False, blank=False, editable=False
 
-### Icon
+### *Icon*
 
 | Name | Key | Type | Other Details
 | -- | -- | -- | --
 | name || CharField | max_length=200, null=False, editable=False
 | website || URLField | max_length=200
 
-### Flavor 
+### *Flavor* 
 
 | Name | Key | Type | Other Details
 | -- | -- | -- | --
 | description_f || Textfield
 
-### History 
+### *History*
 
 | Name | Key | Type | Other Details
 | -- | -- | -- | --
 | history_f || Textfield
 
-### Title
+### *Title*
 
 | Name | Key | Type | Other Details
 | -- | -- | -- | --
 | title_f || Charfield | max_length=50, null=False, blank=False)
 
-# Features 
+# **Features** 
 
-### Existing Features
+### **Existing Features**
 
 ### **Navbar**
 
@@ -525,6 +525,12 @@ There are a few ideas that I would like to implement in the future:
 | 02 | Fields don't save profile form | [Issue #36](https://github.com/CHAMPION316/coffee-forest/issues/36) | User details after purchase and going to profile page doesn't save their details in the profile page.
 | 03 | Styling crispy form | [Issue #31](https://github.com/CHAMPION316/coffee-forest/issues/31) | Crispy forms styling wasn't registering
 | 04 | Mobile increment 1 | [Issue #24](https://github.com/CHAMPION316/coffee-forest/issues/24) | Increment product by count of 1 didn't register on mobile
+| 05 | Toast Render issue | [Issue #22](https://github.com/CHAMPION316/coffee-forest/issues/22) | Had typo with toast in toast files
+| 06 | Div image collide | [Issue #26](https://github.com/CHAMPION316/coffee-forest/issues/26) | Had typo with toast in toast files
+| 07 | Div image collide | [Issue #26](https://github.com/CHAMPION316/coffee-forest/issues/26) | Had typo with toast in toast files
+| 07 | Webhook testing | [Issue #33](https://github.com/CHAMPION316/coffee-forest/issues/33) | No way to test since webhook testing is not functional on stripe
+
+
 
 \
 &nbsp;
@@ -535,6 +541,16 @@ There are a few ideas that I would like to implement in the future:
 ## Automated Testing
 This part of the project was incredibly difficult for me this goes back to PP4. I still need a better understanding of how to create testing but unfortunately time wasn't on my side to commit to this. 
 
+## Manual Testing
+
+| Issue Number |  Title | Comments 
+|--|--|--|
+| [Issue #28](https://github.com/CHAMPION316/coffee-forest/issues/38 "Issue #38") | Bag | Tried an incrementation of single items back to back which cause the issue but not on first attempt. |
+| [Issue #25](https://github.com/CHAMPION316/coffee-forest/issues/25 "Issue #25") | All Pages | content would spill over, decided to elimate div and keep info on checkout for discount promotion | 
+| [Issue #64](https://github.com/CHAMPION316/coffee-forest/issues/33 "Issue #33") | Checout | Tried runninga webhook on stripe but stripe eliminated that option. Could only validate through deployment |
+| [Issue #22](https://github.com/CHAMPION316/coffee-forest/issues/22 "Issue #22") | All Pages | Toast would not render due to js script that was not needed on Bootstrap 5 targeting accidental element id |
+
+
 ## Code Validation
 
 ### HTML
@@ -542,9 +558,15 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 |--|--|--|--|--|
 | index.html | home/templates/home/index.html | PASS | [link](readme/docs/validation/html/homepage.png "link") ||
 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 * **Unfortunately due to time constraints I could not validate all my code. However I did find a site that can do it for me but it woudld of been time consuming to do each file when I only have less than 50min to send the project in. Here is the link to that site
 
-[TUTORIALPOINT](https://www.tutorialspoint.com/index.htm)
+    * [TUTORIALPOINT](https://www.tutorialspoint.com/index.htm)
 
 # Deployment
 
