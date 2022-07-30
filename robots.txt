@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /checkout/
+Sitemap: https://coffee-forest.herokuapp.com/sitemap.xml
