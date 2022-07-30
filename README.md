@@ -251,6 +251,9 @@ The colours will be used as described in the table below
 ### Orders
 ![Orders Data Schema](docs/structure/order-chart.jpg)
 
+### **Icon, History, Flavor**
+![Home Data Schema](docs/structure/home-chart.jpg)
+
 ## Models
 
 ### Category
@@ -311,6 +314,31 @@ The colours will be used as described in the table below
 | quantity |  |  IntegerField | null=False, blank=False, default=0)
 | description | | TextField |
 | lineitem_total |  | DecimalField | max_digits=6, decimal_places=2, null=False, blank=False, editable=False
+
+### Icon
+
+| Name | Key | Type | Other Details
+| -- | -- | -- | --
+| name || CharField | max_length=200, null=False, editable=False
+| website || URLField | max_length=200
+
+### Flavor 
+
+| Name | Key | Type | Other Details
+| -- | -- | -- | --
+| description_f || Textfield
+
+### History 
+
+| Name | Key | Type | Other Details
+| -- | -- | -- | --
+| history_f || Textfield
+
+### Title
+
+| Name | Key | Type | Other Details
+| -- | -- | -- | --
+| title_f || Charfield | max_length=50, null=False, blank=False)
 
 # Features 
 
@@ -471,6 +499,7 @@ There are a few ideas that I would like to implement in the future:
 |CSS Validation| Validating CSS|[w3.org](https://jigsaw.w3.org/css-validator/ "W3C")
 |JS Validation|Validating JS & jQuery|[jshint](https://jshint.com/ "JSHint")
 |PEP8|Validating python|[PEP8](http://pep8online.com/ "PEP8")
+|XML-sitemaps|File generator|[PEP8](https://www.xml-sitemaps.com/ "XML-sitemap")
 | Unsplash | Images |[Pexels](https://www.pexels.com/ "Pexels")
 | GitPod | Development environment |[Gitpod](https://www.gitpod.io/ "Gitpod")
 | Balsamic | Wireframes |[Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
