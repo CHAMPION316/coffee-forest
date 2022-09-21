@@ -1,3 +1,4 @@
+""" list of imports for this model """
 import uuid
 
 from django.db import models
@@ -11,8 +12,11 @@ from profiles.models import UserProfile
 
 
 class Order(models.Model):
+    """
+    list of fields for completing an order
+    """
     order_number = models.CharField(max_length=32, null=False, editable=False)
-    user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL, 
+    user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL,
                                      null=True, blank=True, related_name='orders')
     full_name = models.CharField(max_length=50, null=False, blank=False)
     email = models.CharField(max_length=100, null=False, blank=False)
@@ -37,7 +41,8 @@ class Order(models.Model):
 
     def update_total(self):
         """
-        Update grand total each time a new line item is added,
+        Update grand total each time
+        a new line item is added,
         accounting for delivery costs.
         """
         self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
@@ -62,6 +67,9 @@ class Order(models.Model):
 
 
 class OrderLineItem(models.Model):
+    """
+    information related to a single item
+    """
     order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
     product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
     product_size = models.CharField(max_length=5, null=True, blank=True)
@@ -78,4 +86,3 @@ class OrderLineItem(models.Model):
 
     def __str__(self):
         return f'SKU {self.product.sku} on order {self.order.order_number}'
-        
