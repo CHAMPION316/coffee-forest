@@ -1,9 +1,18 @@
+"""
+forms.py OrderForm class for form fields
+"""
 from django import forms
 from .models import Order
 
 
 class OrderForm(forms.ModelForm):
+    """
+    OrderForm fill out fields
+    """
     class Meta:
+        """
+        Meta class fields
+        """
         model = Order
         fields = ('full_name', 'email', 'phone_number',
                   'street_address', 'town_or_city',
