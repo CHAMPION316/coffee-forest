@@ -1,9 +1,16 @@
+""" UserProfile input fields form """
 from django import forms
 from .models import UserProfile
 
 
 class UserProfileForm(forms.ModelForm):
+    """
+    UserProfile fill out form
+    """
     class Meta:
+        """
+        Meta class for UserProfile
+        """
         model = UserProfile
         exclude = ('user',)
 
