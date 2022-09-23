@@ -66,6 +66,10 @@ body {
     color: #c1d1c1;
 }
 
+.icon-brown:hover {
+    color: #B07B57 !important;
+}
+
 /* 1.3 Header Text */
 
 .text-header {
