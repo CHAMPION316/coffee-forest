@@ -135,6 +135,10 @@ hr {
     border-top: 1px solid #000;
 }
 
+.account-effect:hover {
+    color: #2857d9 !important;
+}
+
 /* 4. Buttons */
 
 .shop-now-button {
