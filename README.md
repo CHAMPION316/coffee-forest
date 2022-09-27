@@ -573,6 +573,21 @@ There are a few ideas that I would like to implement in the future:
 
 ### UX Testing
 
+| ID |  User wants to... | Issue Number | Comments
+|--|--|--| -- |
+| 01 | Add products | [Issue #16](https://github.com/CHAMPION316/coffee-forest/issues/16 "Issue #16") | Items can be added to the shopping bag.
+| 02 | Edit and update a product | [Issue #10](https://github.com/CHAMPION316/coffee-forest/issues/10 "Issue #10") | All details of a product, from price, and description can be edited.
+| 03 | Delete products | [Issue #15](https://github.com/CHAMPION316/coffee-forest/issues/15 "Issue #15") | All products can be deleted from the store through the administration page
+| 04 | View all orders | [Issue #18](https://github.com/CHAMPION316/coffee-forest/issues/18 "Issue #18") | Viewable after checkout or on the administartion page
+| 05 | Limit product count to 99 | [Issue #43](https://github.com/CHAMPION316/coffee-forest/issues/43 "Issue #43") | Done through the quantity-form.html page
+| 06 | Fix spill over of product total number | [Issue #24](https://github.com/CHAMPION316/coffee-forest/issues/24 "Issue #24") | Users can view the price total without the number spilling over on mobile
+| 07 | Navbar icons match background color on hover | [Issue #39](https://github.com/CHAMPION316/coffee-forest/issues/39 "Issue #39") | Fixed issue by using bootstrap class that didn't have hover effect
+| 08 | Fix crispy padding on form | [Issue #31](https://github.com/CHAMPION316/coffee-forest/issues/31 "Issue #31") | Create marginal padding but not capable of extending the fields to be at a larger distance due to it breaking the material on the page. So decided to keep it as is.
+| 09 | Turns text invinsible | [Issue #40](https://github.com/CHAMPION316/coffee-forest/issues/40 "Issue #40") | Used a class from bootstrap to fix the issue 
+| 10 | Stye account login page | [Issue #30](https://github.com/CHAMPION316/coffee-forest/issues/30 "Issue #30") | Add styling through base.css
+| 11 | Style account logout template | [Issue #28](https://github.com/CHAMPION316/coffee-forest/issues/28 "Issue #28") | Add styling through base.css
+| 12 | Style signup page | [Issue #29](https://github.com/CHAMPION316/coffee-forest/issues/29 "Issue #29") | Used css styling to fix the look and padding of the page
+
 ## Issues and bugs
 
 | ID |  User wants to... | Issue Number | Comments
