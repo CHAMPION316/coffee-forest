@@ -35,8 +35,11 @@ Live link can be found here - [Coffee Forest](https://coffee-forest.herokuapp.co
     - [Models](#models)
 - [Branches](#branches)
 - [Features](#4-features)
-    - [Existing Features](#existing-features)
-        - [Navbar](#navbar)
+    - Existing Features
+    - Features to be implemented
+- [Technologies used](#technologies-used "Technologies used")
+        - Languages
+        - Libraries, Frameworks and Tools
 - [Improvements](#5-improvements)
 - [Deployment](#6-deployment)
 - [Credits](#7-credits)
@@ -388,7 +391,7 @@ Branches were constantly used throughout the project. I constantly committed to 
 
 # **Features** 
 
-### **Existing Features**
+## **Existing Features**
 
 ### **Navbar**
 
