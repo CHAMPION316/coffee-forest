@@ -33,6 +33,7 @@ Live link can be found here - [Coffee Forest](https://coffee-forest.herokuapp.co
     - [App Flow](#app-flow)
     - [Data Schema](#data-schema)
     - [Models](#models)
+- [Branches](#branches)
 - [Features](#4-features)
     - [Existing Features](#existing-features)
         - [Navbar](#navbar)
@@ -380,6 +381,10 @@ All of the desired colour combinations have passed the [WebAIM Contrast Checker]
 | Name | Key | Type | Other Details
 | -- | -- | -- | --
 | title_f || Charfield | max_length=50, null=False, blank=False)
+
+# **Branches**
+
+Branches were constantly used throughout the project. I constantly committed to Main Branch with broad descriptions of my commits. There was an instance where I was 2 commits ahead but I was able to fix that issue with the help of slack.
 
 # **Features** 
 
