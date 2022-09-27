@@ -41,11 +41,11 @@ Live link can be found here - [Coffee Forest](https://coffee-forest.herokuapp.co
     - Languages
     - Libraries, Frameworks and Tools
 - [Testing](#testing)
-        - UX Testing
-        - Manual Testing
-        - Code Validation
-        - Bugs
-        - Unfixed Bugs
+    - UX Testing
+    - Manual Testing
+    - Code Validation
+    - Bugs
+    - Unfixed Bugs
 - [Improvements](#5-improvements)
 - [Deployment](#6-deployment)
 - [Credits](#7-credits)
@@ -563,7 +563,8 @@ There are a few ideas that I would like to implement in the future:
 | Colours|Colour pallet| [coolors](https://coolors.co/ "coolors")|
 | Google Fonts| Fonts |[Google Fonts](https://fonts.google.com/ "Fonts")|
 |Pillow| Image processing tool | [Pillow](https://pillow.readthedocs.io/en/stable/ "Pillow")
-|Stripe| online payments| [Stripe](https://stripe.com/en-gb "Stripe")
+|Stripe| Online payments| [Stripe](https://stripe.com/en-gb "Stripe")
+|Contrast Checker| Color comparison tool| [Contrast Checker](https://webaim.org/resources/contrastchecker/ "Contrast Checker")
 
 # Testing
 
