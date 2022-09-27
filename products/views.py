@@ -1,3 +1,4 @@
+""" functions for products app """
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -43,7 +44,7 @@ def all_products(request):
             if not query:
                 messages.error(request, "You did not enter any search criteria!")
                 return redirect(reverse('products'))
-            
+
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
@@ -55,7 +56,7 @@ def all_products(request):
         'current_categories': categories,
         'current_sorting': current_sorting,
     }
-    
+
     return render(request, 'products/products.html', context)
 
 
@@ -67,7 +68,7 @@ def product_detail(request, product_id):
     context = {
         'product': product,
     }
-    
+
     return render(request, 'products/product_detail.html', context)
 
 @login_required
@@ -134,7 +135,7 @@ def delete_product(request, product_id):
         messages.error(request, 'Sorry, only users with special privileges can do that.')
         return redirect(reverse('home'))
 
-        
+
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
     messages.success(request, 'Product deleted')
