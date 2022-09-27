@@ -22,6 +22,13 @@ Live link can be found here - [Coffee Forest](https://coffee-forest.herokuapp.co
         - Strategy Outline
         - Strategy Description
 - [Marketing](#marketing)
+- [Wireframes](#wireframes)
+- [Design Choices](#design-choices)
+    - Fonts
+            - Content
+            - Headings
+        - Colours
+        - Images
 - [Structure](#structure)
     - [App Flow](#app-flow)
     - [Data Schema](#data-schema)
@@ -176,36 +183,39 @@ Facebook is the main social platform being used to push Coffee Forest and it's p
 
 ![Facebook Home Page](docs/marketing/facebook_image.jpg)
 
+&nbsp;
+
 I have also added 2 albums that includes the country and flavors for those coffees that the user can look at.
 
 ![Brazil Flavors](docs/marketing/brazil-flavors.jpg)
 
-&nbsp;
-
 ![Colombia Flavors](docs/marketing/colombia-flavors.jpg)
 
-I've commited to a post as well to show our audience one of our top fan favorites to get the audience even more curious.
+&nbsp;
+
+I've commited to a post as well to show our audience one of our top fan favorites in order to capture their curiosity.
 
 ![Tarantula Post](docs/marketing/tarantula-post.jpg)
 
 
-These social platforms include: 
-* **Twitter**
-* **Facebook**
-* **Instagram**
+In the footer I have attached icons for other social media platforms. I did not create pages for the shop on these platforms since it was not needed but made links to their respective websites to demonstrate how it would look since almost every website has these.
+
+* **[Twitter](https://twitter.com/)**
+* **[Facebook](https://facebook.com/)**
+* **[Instagram](https://www.instagram.com/)**
 
 # Wireframes
 [Home Page](docs/wireframes/Main_Pages.png)
 
 [Product List](docs/wireframes/Product__Pages.png)
 
-[Single Product](docs/wireframes/Single_Product_Page.png)
+[Single Product Description](docs/wireframes/Single_Product_Page.png)
 
 [Dropdown List](docs/wireframes/Dropdown_Pages.png)
 
 [Register Page](docs/wireframes/Register_Pages.png)
 
-[Signin Page](docs/wireframes/Signin_page.png)
+[Signin Page/Authentication](docs/wireframes/Signin_page.png)
 
 \
 &nbsp;
@@ -240,6 +250,17 @@ The colours will be used as described in the table below
 | #DEE0DD | light-grey |
 
 &nbsp;
+
+All of the desired colour combinations have passed the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/ "WebAIM") and the results can be seen below.
+
+| Colour 1 | Colour 2 | Results
+| -- | -- | --
+| light-green | light-green | [result](docs/designs/contrast-checker1.jpg "result")
+| light-green | dark-green | [result](docs/designs/contrast-checker2.jpg "result")
+| light-green | black | [result]( "result")
+| white | purple | [result]( "result")
+| white | dark-green | [result]( "result")
+| white | black | [result]( "result")
 
 # Structure
 ## App Flow
