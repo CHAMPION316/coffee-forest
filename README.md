@@ -14,6 +14,13 @@ Live link can be found here - [Coffee Forest](https://coffee-forest.herokuapp.co
 - [Mission Statement](#mission-statement)
 - [Target Audience](#target-audience)
 - [Stakeholder Interviews](#stakeholder-interviews)
+    - [User Persona](#user-persona "User Persona")
+    - [User Goals](#user-goals "User Goals")
+    - [User Stories](#user-stories "User Stories")
+    - [Requirements and Expectations](#requirements-and-expectations)
+    - [Strategy](#strategy "Strategy")
+        - Strategy Outline
+        - Strategy Description
 - [Marketing](#marketing)
 - [Structure](#structure)
     - [App Flow](#app-flow)
