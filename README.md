@@ -256,11 +256,8 @@ All of the desired colour combinations have passed the [WebAIM Contrast Checker]
 | Colour 1 | Colour 2 | Results
 | -- | -- | --
 | light-green | light-green | [result](docs/designs/contrast-checker1.jpg "result")
-| light-green | dark-green | [result](docs/designs/contrast-checker2.jpg "result")
-| light-green | black | [result](docs/designs/contrast-checker3.jpg "result")
-| white | purple | [result]( "result")
-| white | dark-green | [result]( "result")
-| white | black | [result]( "result")
+| black | light-gray | [result](docs/designs/contrast-checker2.jpg "result")
+| dark-brown | white | [result](docs/designs/contrast-checker3.jpg "result")
 
 # Structure
 ## App Flow
