@@ -172,7 +172,18 @@ The outcome is calculated by combining the scores from the *Importance* and *Fea
 
 # Marketing
 
-At the time of this writing social media pages will be created in order to push the marketing of the website. 
+Facebook is the main social platform being used to push Coffee Forest and it's popularity. The page has as very basic structure since adding more information to accommodate it's actual existence would probably get it shutdown by facebook. There is no address since this is an online shop only.
+
+![Facebook Home Page](docs/marketing/facebook_image.jpg)
+
+I have also added 2 albums that includes the country and flavors for those coffees that the user can look at.
+
+![Brazil Flavors](docs/marketing/brazil-flavors.jpg)
+
+&nbsp;
+
+![Colombia Flavors](docs/marketing/colombia-flavors.jpg)
+
 These social platforms include: 
 * **Twitter**
 * **Facebook**
