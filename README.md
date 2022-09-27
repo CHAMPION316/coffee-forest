@@ -184,6 +184,11 @@ I have also added 2 albums that includes the country and flavors for those coffe
 
 ![Colombia Flavors](docs/marketing/colombia-flavors.jpg)
 
+I've commited to a post as well to show our audience one of our top fan favorites to get the audience even more curious.
+
+![Tarantula Post](docs/marketing/tarantula-post.jpg)
+
+
 These social platforms include: 
 * **Twitter**
 * **Facebook**
