@@ -38,8 +38,14 @@ Live link can be found here - [Coffee Forest](https://coffee-forest.herokuapp.co
     - Existing Features
     - Features to be implemented
 - [Technologies used](#technologies-used "Technologies used")
-        - Languages
-        - Libraries, Frameworks and Tools
+    - Languages
+    - Libraries, Frameworks and Tools
+- [Testing](#testing)
+        - UX Testing
+        - Manual Testing
+        - Code Validation
+        - Bugs
+        - Unfixed Bugs
 - [Improvements](#5-improvements)
 - [Deployment](#6-deployment)
 - [Credits](#7-credits)
