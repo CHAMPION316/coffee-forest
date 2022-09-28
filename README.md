@@ -665,6 +665,7 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | product-info.html | bag/templates/bag/product-info.html | PASS | [link](docs/validation/html/productinfo-code-validation.jpg) ||
 | quantity-form.html | bag/templates/bag/quantity-form.html | PASS | [link](docs/validation/html/quantityform-code-validation.jpg) ||
 | checkout-success.html | bag/templates/bag/checkout-success.html | PASS | [link](docs/validation/html/checkoutsuccess-code-validation.jpg) ||
+| checkout.html | bag/templates/bag/checkout.html | 1 ERROR | [link](docs/validation/html/checkout-code-validation.jpg) | Attribute error can't be fixed since it's a bootstrap class that is needed |
 
 ### HTML
 | File Name | File Path | Result | W3C | Comments |
