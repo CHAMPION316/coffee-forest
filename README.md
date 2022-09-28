@@ -686,6 +686,11 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | views.py | checkout/views.py | PASS | [link](docs/validation/python/checkout/checkout-views-validation.jpg "link") | [7 warnings](docs/validation/python/checkout/checkout-views-warnings.jpg) |
 | webhook_handler.py | checkout/webhook_handler.py | PASS | [link](docs/validation/python/checkout/checkout-webhookhandler-validation.jpg "link") | [7 warnings](docs/validation/python/checkout/checkout-webhookhandler-warnings.jpg) |
 | webhooks.py | checkout/webhooks.py | PASS | [link](docs/validation/python/checkout/checkout-webhook-validation.jpg "link") | [6 warnings](docs/validation/python/checkout/checkout-webhook-warnings.jpg) |
+| home.py | home/admin.py | PASS | [link](docs/validation/python/home/home-admin-validation.jpg "link") ||
+| apps.py | home/apps.py | PASS | [link](docs/validation/python/home/home-apps-validation.jpg "link") ||
+| contexts.py | home/contexts.py | PASS | [link](docs/validation/python/home/home-contexts-validation.jpg "link") | [3 warnings](docs/validation/python/home/home-contexts-warnings.jpg) |
+| models.py | home/models.py | PASS | [link](docs/validation/python/home/home-models-validation.jpg "link") | [3 warnings](docs/validation/python/home/home-models-warnings.jpg) |
+
 
 
 
