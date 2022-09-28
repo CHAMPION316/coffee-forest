@@ -628,8 +628,6 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 \
 &nbsp; 
 
-## Code Validation
-
 ## Issues and bugs
 
 | ID |  User wants to... | Issue Number | Comments
@@ -652,6 +650,14 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 &nbsp; 
 
 ## Code Validation
+
+### HTML
+| File Name | File Path | Result | W3C | Comments |
+|--|--|--|--|--|
+| index.html | home/templates/home/index.html | 7 Errors | [link](docs/validation/html/index-code-validation.jpg "link") | Errors were from duplicate id needed from bootstrap and js script from amazon |
+| signup.html | templates/allauth/account/signup.html | 5 Errors | [link](docs/validation/html/signup-code-validation.jpg "link") ||
+| 400.html | home/templates/home/400.html | PASS | [link](readme/docs/validation/html/400.png "link") ||
+| 500.html | home/templates/home/500.html | |  ||
 
 ### HTML
 | File Name | File Path | Result | W3C | Comments |
