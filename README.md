@@ -596,6 +596,7 @@ There are a few ideas that I would like to implement in the future:
 | 17 | Edit a product | [Issue #10](https://github.com/CHAMPION316/coffee-forest/issues/10 "Issue #10") | Edit product details, price, etc.
 | 18 | Total of shopping cart | [Issue #14](https://github.com/CHAMPION316/coffee-forest/issues/14 "Issue #14") | View users total next to shopping cart icon
 | 19 | Images for products | [Issue #19](https://github.com/CHAMPION316/coffee-forest/issues/14 "Issue #19") | Images for products can viewable when viewing a product
+| 20 | Keep Shopping color change bug | [Issue #20](https://github.com/CHAMPION316/coffee-forest/issues/44 "Issue #19") | Button now works with hover color change done by anchor and not individual elements
 
 \
 &nbsp;
@@ -633,6 +634,11 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 &nbsp; 
 
 ## Code Validation
+    - NOTE
+    ```
+    pep8online website is not working no more so I had to use the terminal for python code validation
+    My mentor helped me to install pycodestyle in the terminal but that install caused a crash in the code where the website didn't function. In order to avoid disaster I decided not to use the requirement and remove it completely. The errors you will see is actually code that is needed for the website to function. I tried my best to make it pass validation but was not very knowledgeable on how to change the code in a way where it wouldn't crash. Everything on code validation is screenshot, so if there are erros they will be listed on there. No image means no error as you will see.
+    ```
 
 ### HTML
 | File Name | File Path | Result | W3C | Comments |
@@ -720,7 +726,7 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | 06 | Div image collide | [Issue #26](https://github.com/CHAMPION316/coffee-forest/issues/26) | Had typo with toast in toast files
 | 07 | Div image collide | [Issue #26](https://github.com/CHAMPION316/coffee-forest/issues/26) | Had typo with toast in toast files
 | 07 | Webhook testing | [Issue #33](https://github.com/CHAMPION316/coffee-forest/issues/33) | No way to test since webhook testing is not functional on stripe
-
+| 08 | Button color change bug | [Issue #44](https://github.com/CHAMPION316/coffee-forest/issues/44) | Deleted classes and made hover on anchor
 
 
 \
@@ -728,10 +734,6 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 [Back to Top](#table-of-contents)
 \
 &nbsp;
-
-* **Unfortunately due to time constraints I could not validate all my code. However I did find a site that can do it for me but it woudld of been time consuming to do each file when I only have less than 50min to send the project in. Here is the link to that site
-
-    * [TUTORIALPOINT](https://www.tutorialspoint.com/index.htm)
 
 # Deployment
 
@@ -890,7 +892,7 @@ This project is using Gmail as its email provider. Other providers can be used b
 
 # My Thoughts
 
-This was one of the hardest challengs I had to go through in anything I've done. Everyday I'm living with imposter syndrome when it comes to programming. The days that the code works I tell myself wait maybe this is possible. I mean if it was that easy everyone could do it. I'm a little sad for the things I could not add to the project and I have to admit that I struggle a lot trying to write code in python and js. I spent more time trying to break down code during this whole course than I can remember. I know it will come in time but I just don't feel like I'm quite there yet when it comes to writing really good code on my own. 
+This was one of the hardest challengs I had to go through in anything I've done. Everyday I'm living with imposter syndrome when it comes to programming. The days that the code works I tell myself wait maybe this is possible. I mean if it was that easy everyone could do it. I'm a little sad for the things I could not add to the project and I have to admit that I struggle a lot trying to write code in python and js. I spent more time trying to break down code during this whole course than I can remember. I know it will come in time but I just don't feel like I'm quite there yet when it comes to writing really good code on my own.
 
 \
 &nbsp;
