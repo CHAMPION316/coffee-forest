@@ -667,7 +667,10 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | checkout-success.html | bag/templates/bag/checkout-success.html | PASS | [link](docs/validation/html/checkoutsuccess-code-validation.jpg) ||
 | checkout.html | bag/templates/bag/checkout.html | 1 ERROR | [link](docs/validation/html/checkout-code-validation.jpg) | Attribute error can't be fixed since it's a bootstrap class that is needed |
 | newsletter.html | home/templates/components/newsletter/newsletter.html | PASS | [link](docs/validation/html/newsletter-code-validation.jpg) ||
-| index.html | home/templates/home/index.html | PASS | [link](docs/validation/html/index-code-validation.jpg) | 5 ERRORS |list-inline-item is being recognized as a name error but it is need - duplicate id for user-options is also a bootstrap id that is needed for the drop down menu. Those were the errors that add up the total of 5
+| index.html | home/templates/home/index.html | 5 ERRORS | [link](docs/validation/html/index-code-validation.jpg) | list-inline-item is being recognized as a name error but it is need - duplicate id for user-options is also a bootstrap id that is needed for the drop down menu. Those were the errors that add up the total of 5 |
+| login.html | templates/allauth/account/login.html | 5 ERRORS | [link](docs/validation/html/login-code-validation.jpg) | list-inline-item is being recognized as a name error but it is need - duplicate id for user-options is also a bootstrap id that is needed for the drop down menu. Those were the errors that add up the total of 5 |
+| logout.html | templates/allauth/account/logout.html | PASS | [link](docs/validation/html/logout-code-validation.jpg) ||
+| profile.html | profiles/templates/profiles/profile.html | 2 ERRORS | [link](docs/validation/html/profile-code-validation.jpg) | I left these errors because I used that container as a background color while having it close on itself.  |
 
 ### HTML
 | File Name | File Path | Result | W3C | Comments |
