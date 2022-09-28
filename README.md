@@ -626,24 +626,6 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | [Issue #41](https://github.com/CHAMPION316/coffee-forest/issues/41 "Issue #41") | Error | Delete toast.js file causing error |
 
 \
-&nbsp; 
-
-## Issues and bugs
-
-| ID |  User wants to... | Issue Number | Comments
-|--|--|--| -- |
-| 01 | Add 1 product bug | [Issue #38](https://github.com/CHAMPION316/coffee-forest/issues/38) | The follow up of the same product at the index of 1 doesn't add to bag total
-| 02 | Fields don't save profile form | [Issue #36](https://github.com/CHAMPION316/coffee-forest/issues/36) | User details after purchase and going to profile page doesn't save their details in the profile page.
-| 03 | Styling crispy form | [Issue #31](https://github.com/CHAMPION316/coffee-forest/issues/31) | Crispy forms styling wasn't registering
-| 04 | Mobile increment 1 | [Issue #24](https://github.com/CHAMPION316/coffee-forest/issues/24) | Increment product by count of 1 didn't register on mobile
-| 05 | Toast Render issue | [Issue #22](https://github.com/CHAMPION316/coffee-forest/issues/22) | Had typo with toast in toast files
-| 06 | Div image collide | [Issue #26](https://github.com/CHAMPION316/coffee-forest/issues/26) | Had typo with toast in toast files
-| 07 | Div image collide | [Issue #26](https://github.com/CHAMPION316/coffee-forest/issues/26) | Had typo with toast in toast files
-| 07 | Webhook testing | [Issue #33](https://github.com/CHAMPION316/coffee-forest/issues/33) | No way to test since webhook testing is not functional on stripe
-
-
-
-\
 &nbsp;
 [Back to Top](#table-of-contents)
 \
@@ -670,12 +652,28 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | index.html | home/templates/home/index.html | 5 ERRORS | [link](docs/validation/html/index-code-validation.jpg) | list-inline-item is being recognized as a name error but it is need - duplicate id for user-options is also a bootstrap id that is needed for the drop down menu. Those were the errors that add up the total of 5 |
 | login.html | templates/allauth/account/login.html | 5 ERRORS | [link](docs/validation/html/login-code-validation.jpg) | list-inline-item is being recognized as a name error but it is need - duplicate id for user-options is also a bootstrap id that is needed for the drop down menu. Those were the errors that add up the total of 5 |
 | logout.html | templates/allauth/account/logout.html | PASS | [link](docs/validation/html/logout-code-validation.jpg) ||
-| profile.html | profiles/templates/profiles/profile.html | 2 ERRORS | [link](docs/validation/html/profile-code-validation.jpg) | I left these errors because I used that container as a background color while having it close on itself.  |
+| profile.html | profiles/templates/profiles/profile.html | 2 ERRORS | [link](docs/validation/html/profile-code-validation.jpg) | I left these errors because I used that container as a background color while having it close on itself. Realizing now that it would trigger this error. I didn't want to mess with the identation of the div levels so left it as is since it works. |
 
-### HTML
-| File Name | File Path | Result | W3C | Comments |
-|--|--|--|--|--|
-| index.html | home/templates/home/index.html | PASS | [link](readme/docs/validation/html/homepage.png "link") ||
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp; 
+
+## Issues and bugs
+
+| ID |  User wants to... | Issue Number | Comments
+|--|--|--| -- |
+| 01 | Add 1 product bug | [Issue #38](https://github.com/CHAMPION316/coffee-forest/issues/38) | The follow up of the same product at the index of 1 doesn't add to bag total
+| 02 | Fields don't save profile form | [Issue #36](https://github.com/CHAMPION316/coffee-forest/issues/36) | User details after purchase and going to profile page doesn't save their details in the profile page.
+| 03 | Styling crispy form | [Issue #31](https://github.com/CHAMPION316/coffee-forest/issues/31) | Crispy forms styling wasn't registering
+| 04 | Mobile increment 1 | [Issue #24](https://github.com/CHAMPION316/coffee-forest/issues/24) | Increment product by count of 1 didn't register on mobile
+| 05 | Toast Render issue | [Issue #22](https://github.com/CHAMPION316/coffee-forest/issues/22) | Had typo with toast in toast files
+| 06 | Div image collide | [Issue #26](https://github.com/CHAMPION316/coffee-forest/issues/26) | Had typo with toast in toast files
+| 07 | Div image collide | [Issue #26](https://github.com/CHAMPION316/coffee-forest/issues/26) | Had typo with toast in toast files
+| 07 | Webhook testing | [Issue #33](https://github.com/CHAMPION316/coffee-forest/issues/33) | No way to test since webhook testing is not functional on stripe
+
+
 
 \
 &nbsp;
