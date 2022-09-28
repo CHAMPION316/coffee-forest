@@ -1,9 +1,17 @@
+"""
+admin class models
+to access in admin panel
+"""
 from django.contrib import admin
 from .models import Product, Category
 
 # Register your models here.
 
 class ProductAdmin(admin.ModelAdmin):
+    """
+    ProductAdmin model for use
+    in admin
+    """
     list_display = (
         'sku',
         'name',
@@ -16,6 +24,10 @@ class ProductAdmin(admin.ModelAdmin):
     ordering = ('sku',)
 
 class CategoryAdmin(admin.ModelAdmin):
+    """
+    CategoryAdmin model for use
+    in admin
+    """
     list_display = (
         'friendly_name',
         'name',

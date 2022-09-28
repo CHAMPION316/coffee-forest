@@ -691,8 +691,18 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | contexts.py | home/contexts.py | PASS | [link](docs/validation/python/home/home-contexts-validation.jpg "link") | [3 warnings](docs/validation/python/home/home-contexts-warnings.jpg) |
 | urls.py | home/urls.py | PASS | [link](docs/validation/python/home/home-urls-validation.jpg "link") ||
 | views.py | home/views.py | PASS | [link](docs/validation/python/home/home-views-validation.jpg "link") | [16 warnings](docs/validation/python/home/home-views-warnings.jpg) |
-
-
+| admin.py | products/admin.py | PASS | [link](docs/validation/python/products/products-admin-validation.jpg "link") ||
+| forms.py | products/forms.py | PASS | [link](docs/validation/python/products/products-forms-validation.jpg "link") | [2 warnings](docs/validation/python/products/products-forms-warnings.jpg) |
+| models.py | products/models.py | PASS | [link](docs/validation/python/products/products-models-validation.jpg "link") | [2 warnings](docs/validation/python/products/products-models-warnings.jpg) |
+| urls.py | products/urls.py | PASS | [link](docs/validation/python/products/products-urls-validation.jpg "link") | [2 warnings](docs/validation/python/products/products-urls-warnings.jpg)
+| views.py | products/views.py | PASS | [link](docs/validation/python/products/products-views-validation.jpg "link") | [2 warnings](docs/validation/python/products/products-views-warnings.jpg)
+| widgets.py | products/widgets.py | PASS | [link](docs/validation/python/products/products-widgets-validation.jpg "link") ||
+| admin.py | products/admin.py | PASS | [link](docs/validation/python/profiles/profiles-admin-validation.jpg "link") | [1 warning](docs/validation/python/profiles/profiles-admin-warnings.jpg) |
+| apps.py | products/apps.py | PASS | [link](docs/validation/python/profiles/profiles-apps-validation.jpg "link") ||
+| forms.py | products/forms.py | PASS | [link](docs/validation/python/profiles/profiles-forms-validation.jpg "link") ||
+| models.py | products/models.py | PASS | [link](docs/validation/python/profiles/profiles-models-validation.jpg "link") | [7 warnings](docs/validation/python/profiles/profiles-models-warnings.jpg) |
+| urls.py | products/urls.py | PASS | [link](docs/validation/python/profiles/profiles-urls-validation.jpg "link") ||
+| views.py | products/views.py | PASS | [link](docs/validation/python/profiles/profiles-views-validation.jpg "link") ||
 
 
 
