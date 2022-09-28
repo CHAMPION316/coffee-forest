@@ -1,3 +1,6 @@
+"""
+models for home app
+"""
 from django.db import models
 from django.db.models import Model
 
@@ -9,6 +12,10 @@ class Flavor(models.Model):
     """
 
     class Meta:
+        """
+        meta class for models Flavors
+        allow name change in admin
+        """
         verbose_name_plural = 'Flavors'
 
     description_f = models.TextField()
@@ -19,11 +26,15 @@ class Flavor(models.Model):
 
 class Title(models.Model):
     """
-    Section to update the page title 
+    Section to update the page title
     when necessary
     """
 
     class Meta:
+        """
+        class meta allows
+        name change of model in admin
+        """
         verbose_name_plural = 'Title Page'
 
     title_f = models.CharField(max_length=50, null=False, blank=False)
@@ -39,6 +50,10 @@ class History(models.Model):
     """
 
     class Meta:
+        """
+        class meta allows for
+        name change of model in admin
+        """
         verbose_name_plural = 'History'
 
     history_f = models.TextField()
@@ -53,7 +68,11 @@ class Icon(models.Model):
     """
 
     class Meta:
+        """
+        class meta allows for
+        name change of model in admin
+        """
         verbose_name_plural = 'Icons'
-    
+
     name = models.CharField(max_length=200, null=False, blank=False)
     website = models.URLField(max_length = 200)
