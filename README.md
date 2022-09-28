@@ -37,7 +37,7 @@ Live link can be found here - [Coffee Forest](https://coffee-forest.herokuapp.co
 - [Features](#4-features)
     - Existing Features
     - Features to be implemented
-- [Technologies used](#technologies-used "Technologies used")
+- [Technologies used](#technologies-used)
     - Languages
     - Libraries, Frameworks and Tools
 - [Testing](#testing)
@@ -45,11 +45,12 @@ Live link can be found here - [Coffee Forest](https://coffee-forest.herokuapp.co
     - Automated Testing
     - Manual Testing
     - Code Validation
-    - Bugs
-    - Unfixed Bugs
-- [Improvements](#5-improvements)
-- [Deployment](#6-deployment)
-- [Credits](#7-credits)
+    - Bugs / Unfixed Bugs
+- [Deployment](#deployment)
+    - Local Deployment
+    - Deployment via Heroku
+- [Credits](#credits)
+- [My Thoughts](#my-thoughts)
 
 # Background 
 
@@ -704,16 +705,10 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | urls.py | products/urls.py | PASS | [link](docs/validation/python/profiles/profiles-urls-validation.jpg "link") ||
 | views.py | products/views.py | PASS | [link](docs/validation/python/profiles/profiles-views-validation.jpg "link") ||
 
-
-
-
-\
-&nbsp;
-[Back to Top](#table-of-contents)
 \
 &nbsp; 
 
-## Issues and bugs
+## Issues / bugs unfixed bugs
 
 | ID |  User wants to... | Issue Number | Comments
 |--|--|--| -- |
