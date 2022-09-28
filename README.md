@@ -636,7 +636,7 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 ## Code Validation
     - NOTE
     ```
-    pep8online website is not working no more so I had to use the terminal for python code validation
+    pep8online.com website is not working no more so I had to use the terminal for python code validation
     My mentor helped me to install pycodestyle in the terminal but that install caused a crash in the code where the website didn't function. In order to avoid disaster I decided not to use the requirement and remove it completely. The errors you will see is actually code that is needed for the website to function. I tried my best to make it pass validation but was not very knowledgeable on how to change the code in a way where it wouldn't crash. Everything on code validation is screenshot, so if there are erros they will be listed on there. No image means no error as you will see.
     ```
 
