@@ -654,10 +654,17 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 ### HTML
 | File Name | File Path | Result | W3C | Comments |
 |--|--|--|--|--|
-| index.html | home/templates/home/index.html | 7 Errors | [link](docs/validation/html/index-code-validation.jpg "link") | Errors were from duplicate id needed from bootstrap and js script from amazon |
-| signup.html | templates/allauth/account/signup.html | 5 Errors | [link](docs/validation/html/signup-code-validation.jpg "link") ||
-| 400.html | home/templates/home/400.html | PASS | [link](readme/docs/validation/html/400.png "link") ||
-| 500.html | home/templates/home/500.html | |  ||
+| about.html | home/templates/home/about.html | PASS | [link](docs/validation/html/about-code-validation.jpg "link") ||
+| contact.html | home/templates/components/contact.html | PASS | [link](docs/validation/html/contactus-code-validation.jpg "link") ||
+| hero-image.html | home/templates/components/hero-image.html | PASS | [link](docs/validation/html/heroimage-code-validation.jpg "link") ||
+| flavors.html | home/templates/home/flavors.html | PASS | [link](docs/validation/html/flavors-code-validation.jpg) ||
+| bag.html | bag/templates/bag/bag.html | PASS | [link](docs/validation/html/bag-code-validation.jpg) ||
+| bag-total.html | bag/templates/bag/bag-total.html | PASS | [link](docs/validation/html/bagtotal-code-validation.jpg) ||
+| checkout-buttons.html | bag/templates/bag/checkout-buttons.html | PASS | [link](docs/validation/html/checkoutbuttons-code-validation.jpg) ||
+| product-image.html | bag/templates/bag/product-image.html | PASS | [link](docs/validation/html/productimage-code-validation.jpg) ||
+| product-info.html | bag/templates/bag/product-info.html | PASS | [link](docs/validation/html/productinfo-code-validation.jpg) ||
+| quantity-form.html | bag/templates/bag/quantity-form.html | PASS | [link](docs/validation/html/quantityform-code-validation.jpg) ||
+| checkout-success.html | bag/templates/bag/checkout-success.html | PASS | [link](docs/validation/html/checkoutsuccess-code-validation.jpg) ||
 
 ### HTML
 | File Name | File Path | Result | W3C | Comments |
