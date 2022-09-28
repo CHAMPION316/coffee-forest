@@ -587,6 +587,19 @@ There are a few ideas that I would like to implement in the future:
 | 10 | Stye account login page | [Issue #30](https://github.com/CHAMPION316/coffee-forest/issues/30 "Issue #30") | Add styling through base.css
 | 11 | Style account logout template | [Issue #28](https://github.com/CHAMPION316/coffee-forest/issues/28 "Issue #28") | Add styling through base.css
 | 12 | Style signup page | [Issue #29](https://github.com/CHAMPION316/coffee-forest/issues/29 "Issue #29") | Used css styling to fix the look and padding of the page
+| 13 | View all products | [Issue #18](https://github.com/sam-timmins/swanbourne_village_stores/issues/17 "Issue #18") | All products are viewable in the products/ page or within any cateory or search filter the user decides to use.
+| 14 | View a category of products | [Issue #2](https://github.com/CHAMPION316/coffee-forest/issues/2 "Issue #2") | View products using categories for price, rating etc.
+| 15 | View all orders | [Issue #20](https://github.com/CHAMPION316/coffee-forest/issues/20 "Issue #20") |  View all orders as a signed in user on profile page 
+| 16 | Easily login and logout | [Issue #20](https://github.com/sam-timmins/swanbourne_village_stores/issues/20 "Issue #20") | Simple view for logging in and loging out.
+| 17 | Edit a product | [Issue #10](https://github.com/CHAMPION316/coffee-forest/issues/10 "Issue #10") | Edit product details, price, etc.
+| 18 | Total of shopping cart | [Issue #14](https://github.com/CHAMPION316/coffee-forest/issues/14 "Issue #14") | View users total next to shopping cart icon
+| 19 | Images for products | [Issue #19](https://github.com/CHAMPION316/coffee-forest/issues/14 "Issue #19") | Images for products can viewable when viewing a product
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 ## Issues and bugs
 
