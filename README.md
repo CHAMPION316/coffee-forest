@@ -689,7 +689,10 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | home.py | home/admin.py | PASS | [link](docs/validation/python/home/home-admin-validation.jpg "link") ||
 | apps.py | home/apps.py | PASS | [link](docs/validation/python/home/home-apps-validation.jpg "link") ||
 | contexts.py | home/contexts.py | PASS | [link](docs/validation/python/home/home-contexts-validation.jpg "link") | [3 warnings](docs/validation/python/home/home-contexts-warnings.jpg) |
-| models.py | home/models.py | PASS | [link](docs/validation/python/home/home-models-validation.jpg "link") | [3 warnings](docs/validation/python/home/home-models-warnings.jpg) |
+| urls.py | home/urls.py | PASS | [link](docs/validation/python/home/home-urls-validation.jpg "link") ||
+| views.py | home/views.py | PASS | [link](docs/validation/python/home/home-views-validation.jpg "link") | [16 warnings](docs/validation/python/home/home-views-warnings.jpg) |
+
+
 
 
 
