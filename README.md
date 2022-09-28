@@ -654,19 +654,23 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | logout.html | templates/allauth/account/logout.html | PASS | [link](docs/validation/html/logout-code-validation.jpg) ||
 | profile.html | profiles/templates/profiles/profile.html | 2 ERRORS | [link](docs/validation/html/profile-code-validation.jpg) | I left these errors because I used that container as a background color while having it close on itself. Realizing now that it would trigger this error. I didn't want to mess with the identation of the div levels so left it as is since it works. |
 
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp; 
 
 ### CSS
 | File Name | File Path | Result | W3C | Comments |
 |--|--|--|--|--|
-| checkout.css | static/css/checkout/checkout.css | PASS | [link](docs/validation/css/checkout-css-validation.jpg "link") |[1 warnings]
-| home.css | static/css/home/home.css | PASS | [link](docs/validation/css/home-css-validation.jpg "link") |[1 warnings]
-| checkout.css | static/css/profiles/profiles.css | PASS | [link](docs/validation/css/profiles-css-validation.jpg "link") |[0 warnings]
-| base.css | static/css/base.css | PASS | [link](docs/validation/css/base-css-validation.jpg "link") |[8 warnings]
+| checkout.css | static/css/checkout/checkout.css | PASS | [link](docs/validation/css/checkout-css-validation.jpg "link") |[1 warnings](docs/validation/css/checkout-warnings.jpg)
+| home.css | static/css/home/home.css | PASS | [link](docs/validation/css/home-css-validation.jpg "link") |[1 warnings](docs/validation/css/home-warning.jpg)
+| checkout.css | static/css/profiles/profiles.css | PASS | [link](docs/validation/css/profiles-css-validation.jpg "link") |0 warnings
+| base.css | static/css/base.css | PASS | [link](docs/validation/css/base-css-validation.jpg "link") |[8 warnings](docs/validation/css/base-warnings.jpg)
+
+
+### JS
+| File Name | File Path | Result | JSHint | Comments |
+|--|--|--|--|--|
+| stripe_elements.js | static/js/checkout/stripe_elements/ | PASS | [link](docs/validation/js/stripe-validation.jpg "link") | [3 warnings](docs/validation/js/stripe-warnings.jpg) |
+| newsletter.js | static/js/newsletter/newsletter.js | PASS | [link](docs/validation/js/newsletter-validation.jpg "link") | [2 warnings](docs/validation/js/newsletter-warnings.jpg) |
+| countryfield.js | static/js/profiles/countryfield.js | PASS | [link](docs/validation/js/countryfield-validation.jpg "link") | [2 warnings](docs/validation/js/countryfield-warnings.jpg) |
+
 
 \
 &nbsp;
