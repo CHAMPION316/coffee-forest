@@ -660,7 +660,7 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 |--|--|--|--|--|
 | checkout.css | static/css/checkout/checkout.css | PASS | [link](docs/validation/css/checkout-css-validation.jpg "link") |[1 warnings](docs/validation/css/checkout-warnings.jpg)
 | home.css | static/css/home/home.css | PASS | [link](docs/validation/css/home-css-validation.jpg "link") |[1 warnings](docs/validation/css/home-warning.jpg)
-| checkout.css | static/css/profiles/profiles.css | PASS | [link](docs/validation/css/profiles-css-validation.jpg "link") |0 warnings
+| checkout.css | static/css/profiles/profiles.css | PASS | [link](docs/validation/css/profiles-css-validation.jpg "link") |
 | base.css | static/css/base.css | PASS | [link](docs/validation/css/base-css-validation.jpg "link") |[8 warnings](docs/validation/css/base-warnings.jpg)
 
 
@@ -670,6 +670,20 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | stripe_elements.js | static/js/checkout/stripe_elements/ | PASS | [link](docs/validation/js/stripe-validation.jpg "link") | [3 warnings](docs/validation/js/stripe-warnings.jpg) |
 | newsletter.js | static/js/newsletter/newsletter.js | PASS | [link](docs/validation/js/newsletter-validation.jpg "link") | [2 warnings](docs/validation/js/newsletter-warnings.jpg) |
 | countryfield.js | static/js/profiles/countryfield.js | PASS | [link](docs/validation/js/countryfield-validation.jpg "link") | [2 warnings](docs/validation/js/countryfield-warnings.jpg) |
+
+
+### Python
+| File Name | File Path | Result | PEP8 | Comments |
+|--|--|--|--|--|
+| contexts.py | bag/contexts.py | PASS | [link](docs/validation/python/bag/bag-contexts-validation.jpg "link") ||
+| urls.py | bags/urls.py | PASS | [link](docs/validation/python/bag/bags-urls-validation.jpg "link") ||
+| views.py | bags/views.py | PASS | [link](docs/validation/python/bag/bag-views-validation.jpg "link") | [6 warnings](docs/validation/python/bag/bag-views-warnings.jpg) |
+| admin.py | checkout/admin.py | PASS | [link](docs/validation/python/checkout/checkout-admin-validation.jpg "link") ||
+| forms.py | checkout/forms.py | PASS | [link](docs/validation/python/checkout/checkout-forms-validation.jpg "link") ||
+| models.py | checkout/models.py | PASS | [link](docs/validation/python/checkout/checkout-models-validation.jpg "link") | [4 warnings](docs/validation/python/checkout/checkout-models-warnings.jpg) |
+| signals.py | checkout/signals.py | PASS | [link](docs/validation/python/checkout/checkout-signals-validation.jpg "link") | [4 warnings](docs/validation/python/checkout/checkout-signals-warnings.jpg) |
+
+
 
 
 \
