@@ -660,6 +660,20 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 \
 &nbsp; 
 
+### CSS
+| File Name | File Path | Result | W3C | Comments |
+|--|--|--|--|--|
+| checkout.css | static/css/checkout/checkout.css | PASS | [link](docs/validation/css/checkout-css-validation.jpg "link") |[1 warnings]
+| home.css | static/css/home/home.css | PASS | [link](docs/validation/css/home-css-validation.jpg "link") |[1 warnings]
+| checkout.css | static/css/profiles/profiles.css | PASS | [link](docs/validation/css/profiles-css-validation.jpg "link") |[0 warnings]
+| base.css | static/css/base.css | PASS | [link](docs/validation/css/base-css-validation.jpg "link") |[8 warnings]
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp; 
+
 ## Issues and bugs
 
 | ID |  User wants to... | Issue Number | Comments
