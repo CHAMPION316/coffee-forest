@@ -7,12 +7,18 @@
             COFFEE FOREST
         </h2>
         <p class="text-md text-center text-md-start py-5 px-md-3 p-xl-5 m-0">
-            <strong>Coffee Forest</strong>,
-            {{ histories.history_f }}
-            <br>
-            <br>
-            {{ histories2.history_f }}
-            <strong><em>"Coffee Forest provides premium quality unmatched anywhere in the world."</em></strong>
+            {% for x in histories %}
+                {{ x.history_f }}
+                <br>
+                <br>
+            {% endfor %}
+            <strong>
+                <em>
+                    "Coffee Forest provides premium quality 
+                        unmatched anywhere in the world."
+                        - David Letterman
+                </em>
+            </strong>
         </p>
     </div>
 </section>
