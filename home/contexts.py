@@ -3,7 +3,7 @@ contexts for models in home/models.py
 to allow for Admin use
 """
 from django.shortcuts import get_object_or_404
-from .models import Title, Flavor, History, Icon
+from .models import Title, Icon
 
 
 def global_context(request):
@@ -13,8 +13,6 @@ def global_context(request):
 
     return {
         'titles': get_object_or_404(Title, pk=1),
-        'histories': get_object_or_404(History, pk=1),
-        'histories2': get_object_or_404(History, pk=2),
         'icon_t': get_object_or_404(Icon, pk=1),
         'icon_f': get_object_or_404(Icon, pk=2),
         'icon_i': get_object_or_404(Icon, pk=3),
