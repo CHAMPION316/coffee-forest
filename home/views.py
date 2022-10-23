@@ -17,8 +17,7 @@ def index(request):
 
     flavors = Flavor.objects.all()
     titles = Title.objects.order_by('title_f')[0:1].get()
-    histories = History.objects.order_by('history_f')[0:1].get()
-    histories2 = History.objects.order_by('history_f')[1:2].get()
+    histories = History.objects.all()
     icon_t = Icon.objects.order_by('website')[0:1].get()
     icon_f = Icon.objects.order_by('website')[1:2].get()
     icon_i = Icon.objects.order_by('website')[2:3].get()
@@ -27,7 +26,6 @@ def index(request):
         'flavors': flavors,
         'titles': titles,
         'histories': histories,
-        'histories2': histories2,
         'icon_t': icon_t,
     }
 
