@@ -3,9 +3,11 @@
         <h2 class="text-header text-xl text-center">
             Coffee Forest
         </h2>
+        {% for x in flavors %}
         <p class="text-lg py-5 px-md-3 p-xl-5 m-0 text-center">
-            {{ flavors.description_f }}
+            {{ x.description_f }}
         </p>
+        {% endfor %}
         <a href="{% url 'products' %}" class="btn btn-light-green text-md p-3 rounded-3 shadow p-3 mb-5 rounded">
             COFFEE
         </a>
