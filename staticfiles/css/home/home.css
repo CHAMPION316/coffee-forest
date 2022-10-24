@@ -46,3 +46,8 @@
 .flavor-bg-color {
     background-color: #e4e4e4;
 }
+
+.crazy-border-color {
+    border: #c1d1c1;
+    border-radius: 2px;
+}
