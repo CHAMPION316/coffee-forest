@@ -4,11 +4,10 @@ all models in app to be viewable
 on webpage
 """
 from django.shortcuts import render, redirect, reverse, get_object_or_404
-from .models import Flavor, Title, History, Icon
 from django import template
-
-from django.core.mail import send_mail
 from django.contrib import messages
+from django.core.mail import send_mail
+from .models import Flavor, Title, History, Icon
 
 
 def index(request):
