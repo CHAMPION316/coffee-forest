@@ -2,6 +2,7 @@
 {% load static %}
 {% load bag_tools %}
 
+<!-- Extra CSS -->
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/checkout/checkout.css' %}">
 {% endblock %}
@@ -14,6 +15,7 @@
     </div>
 {% endblock %}
 
+<!-- Checkout header -->
 {% block content %}
     <div class="overlay"></div>
     <div class="container">
@@ -25,6 +27,7 @@
             </div>
         </div>
 
+        <!-- Checkout summary -->
         <div class="row">
             <div class="col-12 col-lg-6 order-lg-last mb-5">
                 <p class="text-muted">Order Summary ({{ product_count }})</p>
@@ -138,6 +141,7 @@
     </div>
 {% endblock %}
 
+<!-- Postload JS -->
 {% block postloadjs %}
 
     {{ block.super }}
