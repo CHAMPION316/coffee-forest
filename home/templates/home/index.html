@@ -6,8 +6,17 @@
 {% endblock %}
 
 {% block content %}
+
+    <!-- Hero Image -->
     {% include 'components/hero-image.html' %}
+
+    <!-- About {{ history }} -->
     {% include 'home/about.html' %}
+
+    <!-- Flavors {{ description_f }} -->
     {% include 'home/flavors.html' %}
+
+    <!-- Contact {{ name }} -->
     {% include 'components/contact.html' %}
+    
 {% endblock %}
