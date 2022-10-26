@@ -126,6 +126,7 @@
       </header>
 
       {% if messages %}
+      <!-- Messages Section -->
           <div class="message-container">
                 {% for message in messages %}
                     {% with message.level as level %}
@@ -152,6 +153,7 @@
       <!-- Footer -->  
       {% include 'includes/footer.html' %}
 
+      <!-- Postload JS -->
       {% block postloadjs %}
         <script src="{% static 'js/newsletter/newsletter.js' %}"></script>
         <script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
