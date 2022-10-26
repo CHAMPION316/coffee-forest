@@ -4,15 +4,20 @@
 <html lang="en">
   <head>
 
+    <!-- Meta Tags-->
     {% block meta %}
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Coffee Forest, coffee, drinks, quality drinks, coffee store, store, online shopping, shopping">
+        <meta name="Description" content="Coffee Forest, is an online coffee store that provides premium tasting coffee to customers worldwide.">
     {% endblock %}
 
+    <!-- Extra Meta -->
     {% block extra_meta %}
     {% endblock %}
 
+    <!-- Core JS -->
     {% block corecss %}
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
@@ -24,9 +29,11 @@
         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
     {% endblock %}
 
+    <!-- Extra CSS -->
     {% block extra_css %}
     {% endblock %}
 
+    <!-- Core CSS -->
     {% block corejs %}
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -35,12 +42,15 @@
         <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
 
+    <!-- Extra JS -->
     {% block extra_js %}
     {% endblock %}
 
     <title>Coffee Forest {% block extra_title %}{% endblock %}</title>
   </head>
+
   <body>
+      <!-- Navbar -->  
       <header class="container-fluid fixed-top">
           <div id="top-nav" class="row crazy-color pt-lg-2 d-none d-lg-flex">
               <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -106,7 +116,10 @@
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                   </button>
+
+                  <!-- Mobile Header -->
                   {% include 'includes/mobile-top-header.html' %}
+                  <!-- Navigation Bar -->
                   {% include 'includes/main-nav.html' %}
               </nav>
           </div>
