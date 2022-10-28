@@ -31,7 +31,6 @@
 
     <!-- Extra CSS -->
     {% block extra_css %}
-    <link rel="icon" type="image/png" href="/media/media/coffee-favicon.png" />
     {% endblock %}
 
     <!-- Core JS -->
@@ -45,6 +44,12 @@
 
     <!-- Extra JS -->
     {% block extra_js %}
+    {% endblock %}
+
+     <!-- Favicon -->
+     {% block favicon %}
+        <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/icons8-coffee-to-go-office-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/icons8-coffee-to-go-office-16.png">
     {% endblock %}
 
     <title>Coffee Forest {% block extra_title %}{% endblock %}</title>
