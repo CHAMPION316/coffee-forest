@@ -567,6 +567,7 @@ There are a few ideas that I would like to implement in the future:
 |Pillow| Image processing tool | [Pillow](https://pillow.readthedocs.io/en/stable/ "Pillow")
 |Stripe| Online payments| [Stripe](https://stripe.com/en-gb "Stripe")
 |Contrast Checker| Color comparison tool| [Contrast Checker](https://webaim.org/resources/contrastchecker/ "Contrast Checker")
+|Favicon| favicon icon | [Favicon](https://www.favicon.cc/ "Favicon")
 
 # Testing
 
