@@ -630,6 +630,7 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | [Issue #41](https://github.com/CHAMPION316/coffee-forest/issues/41 "Issue #41") | Error | Delete toast.js file causing error |
 | [Issue #68](https://github.com/CHAMPION316/coffee-forest/issues/68 "Issue #68") | Render | Incorrect Field Type |
 | [Issue #69](https://github.com/CHAMPION316/coffee-forest/issues/69 "Issue #69") | Toasts | Incorrect message |
+| [Issue #70](https://github.com/CHAMPION316/coffee-forest/issues/70 "Issue #70") | Error | Admin checkout |
 
 \
 &nbsp;
