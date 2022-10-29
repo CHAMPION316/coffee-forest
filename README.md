@@ -900,6 +900,22 @@ This was one of the hardest challengs I had to go through in anything I've done.
 
 \
 &nbsp;
+
+P.S. This is my second and last opportunity to send this reworked PP5 project. I did everything that was asked in the asssessment feedback to the best of my abilities and really hope to pass this course. This will get added into my last commit so I hope that it's read by whom reviews my project. I did the following:
+
+- DEBUG= False
+- Fixed CRUD operations (Which don't cause the 500 error page)
+- User can login as admin and use CRUD
+- CRUD also works as an admin from the UI
+- Most code validations are pylint issues/ my inability to fix the rest is due to breaking the code and crashing my own site (my fear)
+- Completely revamped the **issues** on github so they follow the MoSCoW method
+
+Thank you, I now cross my fingers and leave this in your hands. 
+
+Royer
+
+\
+&nbsp;
 [Back to Top](#table-of-contents)
 \
 &nbsp;
