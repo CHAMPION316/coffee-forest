@@ -599,6 +599,7 @@ There are a few ideas that I would like to implement in the future:
 | 19 | Images for products | [Issue #19](https://github.com/CHAMPION316/coffee-forest/issues/14 "Issue #19") | Images for products can viewable when viewing a product
 | 20 | Keep Shopping color change bug | [Issue #20](https://github.com/CHAMPION316/coffee-forest/issues/44 "Issue #19") | Button now works with hover color change done by anchor and not individual elements
 
+
 \
 &nbsp;
 [Back to Top](#table-of-contents)
@@ -620,7 +621,7 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 |--|--|--|
 | [Issue #28](https://github.com/CHAMPION316/coffee-forest/issues/38 "Issue #38") | Bag | Tried an incrementation of single items back to back which cause the issue but not on first attempt. |
 | [Issue #25](https://github.com/CHAMPION316/coffee-forest/issues/25 "Issue #25") | All Pages | content would spill over, decided to elimate div and keep info on checkout for discount promotion | 
-| [Issue #64](https://github.com/CHAMPION316/coffee-forest/issues/33 "Issue #33") | Checout | Tried runninga webhook on stripe but stripe eliminated that option. Could only validate through deployment |
+| [Issue #64](https://github.com/CHAMPION316/coffee-forest/issues/33 "Issue #33") | Checkout | Tried runninga webhook on stripe but stripe eliminated that option. Could only validate through deployment |
 | [Issue #22](https://github.com/CHAMPION316/coffee-forest/issues/22 "Issue #22") | All Pages | Toast would not render due to js script that was not needed on Bootstrap 5 targeting accidental element id |
 | [Issue #14](https://github.com/CHAMPION316/coffee-forest/issues/14 "Issue #14") | Bag | Increase items in cart to raise price total |
 | [Issue #36](https://github.com/CHAMPION316/coffee-forest/issues/36 "Issue #36") | Checkout | Write self.fields for and make all fields required | 
@@ -628,6 +629,7 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | [Issue #38](https://github.com/CHAMPION316/coffee-forest/issues/38 "Issue #38") | Products | Issue was not fixed, couldn't write the script to make addding 1 followed by 1 of the same product |
 | [Issue #41](https://github.com/CHAMPION316/coffee-forest/issues/41 "Issue #41") | Error | Delete toast.js file causing error |
 | [Issue #68](https://github.com/CHAMPION316/coffee-forest/issues/68 "Issue #68") | Render | Incorrect Field Type |
+| [Issue #69](https://github.com/CHAMPION316/coffee-forest/issues/69 "Issue #69") | Toasts | Incorrect message |
 
 \
 &nbsp;
