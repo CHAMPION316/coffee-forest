@@ -75,7 +75,7 @@ Ages between 18-23 were less likely to use the service but a growth among colleg
 
 | Name | Age | Uses the Service | Coffee Ordered per Month
 | -- | -- | -- | --
-| Elon Musk | 50 | Owner | N/A
+| Elon Musk | 50 | Friend | N/A
 | Royer Segura | 33 | Owner | N/A
 | Hideo Kojima | 58 | Yes | 4
 | Phil Spencer | 73 | Yes | 6
@@ -627,6 +627,7 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 | [Issue #24](https://github.com/CHAMPION316/coffee-forest/issues/24 "Issue #24") | Products | Fix product number increment bar on mobile with padding width increase |
 | [Issue #38](https://github.com/CHAMPION316/coffee-forest/issues/38 "Issue #38") | Products | Issue was not fixed, couldn't write the script to make addding 1 followed by 1 of the same product |
 | [Issue #41](https://github.com/CHAMPION316/coffee-forest/issues/41 "Issue #41") | Error | Delete toast.js file causing error |
+| [Issue #68](https://github.com/CHAMPION316/coffee-forest/issues/68 "Issue #68") | Render | Incorrect Field Type |
 
 \
 &nbsp;
@@ -638,7 +639,7 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
     - NOTE
     ```
     pep8online.com website is not working no more so I had to use the terminal for python code validation
-    My mentor helped me to install pycodestyle in the terminal but that install caused a crash in the code where the website didn't function. In order to avoid disaster I decided not to use the requirement and remove it completely. The errors you will see is actually code that is needed for the website to function. I tried my best to make it pass validation but was not very knowledgeable on how to change the code in a way where it wouldn't crash. Everything on code validation is screenshot, so if there are erros they will be listed on there. No image means no error as you will see.
+    My mentor helped me to install pycodestyle in the terminal but that install caused a crash in the code where the website didn't function. In order to avoid disaster I decided not to use the requirement and remove it completely. The errors you will mostly see is **pyling erros** the rest is code that is needed for the website to function since vs code doesn't recognize django. I tried my best to make it pass validation but was not very knowledgeable on how to change the code in a way where it wouldn't crash. Everything on code validation is screenshot, so if there are errors they will be listed on there. No image means no error as you will see.
     ```
 
 ### HTML
