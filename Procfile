@@ -1,1 +1,0 @@
-web: gunicorn coffee_forest.wsgi
