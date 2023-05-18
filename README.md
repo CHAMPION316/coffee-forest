@@ -3,7 +3,7 @@
 
 \
 &nbsp;
-Live link can be found here - [Coffee Forest](https://coffee-forest.herokuapp.com/ "Coffee Forest")
+Live link can be found here - [Coffee Forest](https://coffee-forest.onrender.com "Coffee Forest")
 
 \
 &nbsp;
@@ -48,7 +48,7 @@ Live link can be found here - [Coffee Forest](https://coffee-forest.herokuapp.co
     - Bugs / Unfixed Bugs
 - [Deployment](#deployment)
     - Local Deployment
-    - Deployment via Heroku
+    - Deployment via Render
 - [Credits](#credits)
 - [My Thoughts](#my-thoughts)
 
@@ -742,7 +742,7 @@ This part of the project was incredibly difficult for me this goes back to PP4. 
 
 # Deployment
 
-This project was created using GitHub and the code was written using Gitpod. Branches were created and after committing to the branch it was pushed up to the repository. This project is also deployed to Heroku, during its early stages, Heroku deployment was set to *Enable Automatic Deploys*, which meant that every time that the repository was pushed to, Heroku was updated also. However, Heroku encountered a security issue so automatic deployments were no longer available so the following deployment procedure was followed in the workspace terminal.
+This project was created using GitHub and the code was written using Gitpod. Branches were created and after committing to the branch it was pushed up to the repository. This project is also deployed to Heroku, during its early stages, Heroku deployment was set to *Enable Automatic Deploys*, which meant that every time that the repository was pushed to, Heroku was updated also. However, Heroku encountered a security issue so automatic deployments were no longer available so the following deployment procedure was followed in the workspace terminal. A year later on April 2nd 2023 the project was moved and deployed on [Render](https://render.com "Link") . I have decided to keep the steps of how to deploy the project based on the Heroku deployment because that was the original deployment website that was used when I created the project during my time with CodeInstitute. The reason for moving it to Render was due to the fact that Heroku began charging to keep the websites running when originally you had a free version at a cap limit. Render is currently free and it's where the the course suggested all alumni move their projects if they still wanted them to continue running.
 
 ```
 heroku login -i
